@@ -166,7 +166,8 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
             inputs = torch.cat([inputs]*3, dim=1) 
             # print(inputs.shape)
 
-            inputs, labels = inputs.to(device), labels.to(device)
+            # inputs, labels = inputs.to(device), labels.to(device)
+            inputs, labels = inputs.to(device), labels.to(device).long()
 
             # Zero the parameter gradients
             optimizer.zero_grad()
@@ -176,8 +177,12 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
             # print("Outputs shape:", outputs.shape)
             # print("Outputs shape:",outputs.squeeze(-1).shape)
 
-            # print("Labels shape:", labels.shape)
-            loss = criterion(outputs.squeeze(-1), labels.float())
+
+            # loss = criterion(outputs.squeeze(-1), labels.float())
+            loss = criterion(outputs, labels) 
+            # print(outputs.squeeze(-1))
+            # print(f"label is {labels.float()}")
+            # print(f"loss is {loss.item()}")
             
             # Backward pass and optimize
             loss.backward()
@@ -185,7 +190,13 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
 
             running_loss += loss.item()
 
-            predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))
+            # predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))
+            # Convert logits to probabilities
+            probabilities = torch.softmax(outputs, dim=1)
+
+            # Get the predicted class indices based on the higher probability
+            predicted = torch.argmax(probabilities, dim=1)
+
             correct_train += (predicted == labels).sum().item()
             total_train += labels.size(0)
 
@@ -205,10 +216,16 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
                 inputs = torch.cat([inputs]*3, dim=1) 
                 # inputs = inputs.repeat(1, 3, 1, 1, 1)  # Repeat channels for validation inputs
                 # print(inputs.shape)
-                inputs, labels = inputs.to(device), labels.to(device)
+                inputs, labels = inputs.to(device), labels.to(device).long()
                 outputs = model(inputs)
-                valid_loss += criterion(outputs.squeeze(-1), labels.float()).item()
-                predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))  # Binary classification
+                # valid_loss += criterion(outputs.squeeze(-1), labels.float()).item()
+                valid_loss += criterion(outputs, labels).item()
+                # predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))  # Binary classification
+                # Convert logits to probabilities
+                probabilities = torch.softmax(outputs, dim=1)
+
+                # Get the predicted class indices based on the higher probability
+                predicted= torch.argmax(probabilities, dim=1)
                 total_valid += labels.size(0)
                 correct_valid += (predicted == labels).sum().item()
         # accuracy = 100 * correct / total
@@ -253,13 +270,21 @@ def test_model(model, test_loader, criterion, device):
     with torch.no_grad():  # No gradients need to be calculated
         for inputs, labels in tqdm(test_loader, desc='Testing'):
             inputs = torch.cat([inputs]*3, dim=1)  # Adjust input dimensions if necessary
-            inputs, labels = inputs.to(device), labels.to(device)
+            inputs, labels = inputs.to(device), labels.to(device).long()
             outputs = model(inputs)
 
-            loss = criterion(outputs.squeeze(-1), labels.float())
+            # loss = criterion(outputs.squeeze(-1), labels.float())
+            loss = criterion(outputs.squeeze(-1), labels.float()) 
+
             test_loss += loss.item()
 
             predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))
+            # Convert logits to probabilities
+            # probabilities = torch.softmax(outputs, dim=1)
+
+            # Get the predicted class indices based on the higher probability
+            # predicted = torch.argmax(probabilities, dim=1)
+
             correct += (predicted == labels).sum().item()
             total += labels.size(0)
 
@@ -279,7 +304,7 @@ def test_model(model, test_loader, criterion, device):
     logging.info(f'Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy:.2f}%')
     # print(f'Precision: {precision:.2f}, Recall: {recall:.2f}, F1 Score: {f1:.2f}')
 
-    return test_loss, test_accuracy  #, precision, recall, f1
+    return all_predictions, test_loss, test_accuracy  #, precision, recall, f1
 
 def save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, num_epochs):
     # Plot training and validation losses
@@ -287,6 +312,9 @@ def save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, n
     # num_epochs = min(num_epochs, len(train_losses))
     epochs_to_plot = min(num_epochs, len(train_losses))
     plt.plot(range(1, epochs_to_plot + 1), train_losses[:epochs_to_plot], label='Training Loss')
+    # print(valid_losses)
+    # print(valid_accuracies)
+    # print(train_accuracies)
     plt.plot(range(1, epochs_to_plot + 1), valid_losses[:epochs_to_plot], label='Validation Loss')
     plt.title('Training and Validation Loss')
     plt.xlabel('Epochs')
@@ -332,10 +360,12 @@ def main(args):
     model = r3d_18(weights=True)
     num_features = model.fc.in_features
     model.fc = nn.Linear(num_features, 1)
+    # model.fc = nn.Linear(num_features, 2)
     model.to(device)
     
     # Loss function and optimizer
     criterion = nn.BCEWithLogitsLoss()
+    # criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.learning_rate)
     if not args.test:
     # Train the model
@@ -353,20 +383,21 @@ def main(args):
         save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, args.epochs)
 
     else:
-        path = "/home/ubuntu/jupyter-sandy/3D_ResNet/model_after_training_2024-03-07_14-38-49.pth"
-        model.load_state_dict(torch.load(path))
+        # path = "/home/ubuntu/jupyter-sandy/3D_ResNet/model_after_training_2024-03-07_14-38-49.pth"
+        # model.load_state_dict(torch.load(path))
+
         test_model(model, test_loader,criterion, device)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Train and evaluate a 3D ResNet model.')
-    parser.add_argument('--epochs', type=int, default= 50, help='Number of epochs to train.')
+    parser.add_argument('--epochs', type=int, default= 1, help='Number of epochs to train.')
     parser.add_argument('--batch_size', type=int, default=4, help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
     parser.add_argument("--patience", type = int, default= 5, help = "patience for early stop")
     parser.add_argument('--train_data_size_per_class', type= float,default = np.inf, help = 'train_data_size_per_class')
-    parser.add_argument('--valid_data_size_per_class', type= float,default = np.inf, help = 'valid_data_size_per_class')
+    parser.add_argument('--valid_data_size_per_class', type= float,default = 0, help = 'valid_data_size_per_class')
     parser.add_argument('--test_data_size_per_class', type=float,default = np.inf, help = 'test_data_size_per_class')
-    parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")
+    parser.add_argument("--test",type = bool, default = True, help= "if True, we load a model and test on full datasets")
     
     # Add other command line arguments as needed
     args = parser.parse_args()

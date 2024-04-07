@@ -1,0 +1,103 @@
+study_location,diagnosis,age,sex,patient_id
+./FDG-PET-CT-Lesions/PETCT_01682f60c3/03-11-2002-NA-PET-CT Ganzkoerper  primaer mit KM-03431/,LUNG_CANCER,062Y,M,03-11-2002-NA-PET-CT Ganzkoerper  primaer mit KM-03431
+./FDG-PET-CT-Lesions/PETCT_06e7c24059/04-22-2005-NA-PET-CT Ganzkoerper  primaer mit KM-97021/,MELANOMA,065Y,M,04-22-2005-NA-PET-CT Ganzkoerper  primaer mit KM-97021
+./FDG-PET-CT-Lesions/PETCT_07fec0d985/05-04-2006-NA-PET-CT Ganzkoerper  primaer mit KM-11312/,NEGATIVE,050Y,F,05-04-2006-NA-PET-CT Ganzkoerper  primaer mit KM-11312
+./FDG-PET-CT-Lesions/PETCT_080922db5a/01-28-2006-NA-PET-CT Teilkoerper  primaer mit KM-83609/,NEGATIVE,051Y,M,01-28-2006-NA-PET-CT Teilkoerper  primaer mit KM-83609
+./FDG-PET-CT-Lesions/PETCT_099b3fd402/01-03-2003-NA-PET-CT Ganzkoerper nativ-84728/,MELANOMA,095Y,F,01-03-2003-NA-PET-CT Ganzkoerper nativ-84728
+./FDG-PET-CT-Lesions/PETCT_0b57b247b6/05-02-2002-NA-PET-CT Ganzkoerper  primaer mit KM-42966/,LYMPHOMA,021Y,F,05-02-2002-NA-PET-CT Ganzkoerper  primaer mit KM-42966
+./FDG-PET-CT-Lesions/PETCT_0cda25453b/10-12-2003-NA-PET-CT Ganzkoerper  primaer mit KM-47333/,LYMPHOMA,073Y,F,10-12-2003-NA-PET-CT Ganzkoerper  primaer mit KM-47333
+./FDG-PET-CT-Lesions/PETCT_0f4ee9e078/02-10-2005-NA-PET-CT Ganzkoerper  primaer mit KM-08757/,LYMPHOMA,071Y,M,02-10-2005-NA-PET-CT Ganzkoerper  primaer mit KM-08757
+./FDG-PET-CT-Lesions/PETCT_11e258cc1f/03-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-87979/,LYMPHOMA,024Y,F,03-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-87979
+./FDG-PET-CT-Lesions/PETCT_13f476b02b/11-19-2001-NA-PET-CT Ganzkoerper  primaer mit KM-03903/,MELANOMA,058Y,F,11-19-2001-NA-PET-CT Ganzkoerper  primaer mit KM-03903
+./FDG-PET-CT-Lesions/PETCT_14929994cf/04-30-2005-NA-PET-CT Ganzkoerper  primaer mit KM-47251/,NEGATIVE,079Y,F,04-30-2005-NA-PET-CT Ganzkoerper  primaer mit KM-47251
+./FDG-PET-CT-Lesions/PETCT_1781ba966c/08-08-2002-NA-PET-CT Ganzkoerper  primaer mit KM-99061/,NEGATIVE,060Y,F,08-08-2002-NA-PET-CT Ganzkoerper  primaer mit KM-99061
+./FDG-PET-CT-Lesions/PETCT_1a1712f7d0/02-14-2005-NA-PET-CT Ganzkoerper  primaer mit KM-78148/,MELANOMA,059Y,M,02-14-2005-NA-PET-CT Ganzkoerper  primaer mit KM-78148
+./FDG-PET-CT-Lesions/PETCT_1bdefef7d5/01-14-2006-NA-PET-CT Ganzkoerper  primaer mit KM-32502/,NEGATIVE,056Y,M,01-14-2006-NA-PET-CT Ganzkoerper  primaer mit KM-32502
+./FDG-PET-CT-Lesions/PETCT_1f2a4f4280/06-12-2005-NA-PET-CT Ganzkoerper  primaer mit KM-46988/,NEGATIVE,057Y,M,06-12-2005-NA-PET-CT Ganzkoerper  primaer mit KM-46988
+./FDG-PET-CT-Lesions/PETCT_1fe6e48293/06-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-45853/,LYMPHOMA,033Y,M,06-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-45853
+./FDG-PET-CT-Lesions/PETCT_20f4a3aa02/03-17-2005-NA-PET-CT Ganzkoerper  primaer mit KM-72010/,NEGATIVE,071Y,F,03-17-2005-NA-PET-CT Ganzkoerper  primaer mit KM-72010
+./FDG-PET-CT-Lesions/PETCT_2122b88719/09-09-2006-NA-Unspecified CT-98490/,NEGATIVE,079Y,F,09-09-2006-NA-Unspecified CT-98490
+./FDG-PET-CT-Lesions/PETCT_245182006a/11-04-2000-NA-PET-CT Ganzkoerper  primaer mit KM-02942/,LUNG_CANCER,065Y,F,11-04-2000-NA-PET-CT Ganzkoerper  primaer mit KM-02942
+./FDG-PET-CT-Lesions/PETCT_2e44706eaf/05-06-2005-NA-PET-CT Ganzkoerper  primaer mit KM-03974/,MELANOMA,069Y,M,05-06-2005-NA-PET-CT Ganzkoerper  primaer mit KM-03974
+./FDG-PET-CT-Lesions/PETCT_2e97a9e5c2/06-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-00442/,LYMPHOMA,054Y,M,06-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-00442
+./FDG-PET-CT-Lesions/PETCT_30001118d0/04-03-1999-NA-PET-CT Ganzkoerper  primaer mit KM-62786/,LYMPHOMA,035Y,M,04-03-1999-NA-PET-CT Ganzkoerper  primaer mit KM-62786
+./FDG-PET-CT-Lesions/PETCT_35de69968e/10-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-24640/,NEGATIVE,068Y,M,10-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-24640
+./FDG-PET-CT-Lesions/PETCT_3d6f425a76/01-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-67631/,LYMPHOMA,060Y,M,01-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-67631
+./FDG-PET-CT-Lesions/PETCT_3f3df20439/05-09-2005-NA-PET-CT Ganzkoerper  primaer mit KM-26210/,NEGATIVE,055Y,F,05-09-2005-NA-PET-CT Ganzkoerper  primaer mit KM-26210
+./FDG-PET-CT-Lesions/PETCT_3f5a9f616f/06-03-2007-NA-PET-CT Ganzkoerper  primaer mit KM-90087/,MELANOMA,060Y,F,06-03-2007-NA-PET-CT Ganzkoerper  primaer mit KM-90087
+./FDG-PET-CT-Lesions/PETCT_4011ffe8ae/02-07-2005-NA-PET-CT Ganzkoerper  primaer mit KM-03025/,LYMPHOMA,067Y,M,02-07-2005-NA-PET-CT Ganzkoerper  primaer mit KM-03025
+./FDG-PET-CT-Lesions/PETCT_404f8c732f/06-14-2007-NA-PET-CT Ganzkoerper  primaer mit KM-44688/,NEGATIVE,051Y,F,06-14-2007-NA-PET-CT Ganzkoerper  primaer mit KM-44688
+./FDG-PET-CT-Lesions/PETCT_437d2c96fe/11-16-2003-NA-PET-CT Teilkoerper nativ-51325/,NEGATIVE,028Y,M,11-16-2003-NA-PET-CT Teilkoerper nativ-51325
+./FDG-PET-CT-Lesions/PETCT_4481687483/10-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-68961/,NEGATIVE,049Y,F,10-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-68961
+./FDG-PET-CT-Lesions/PETCT_465176d213/05-16-2002-NA-PET-CT Ganzkoerper  primaer mit KM-77090/,LUNG_CANCER,072Y,F,05-16-2002-NA-PET-CT Ganzkoerper  primaer mit KM-77090
+./FDG-PET-CT-Lesions/PETCT_47f4460050/08-06-2006-NA-PET-CT Ganzkoerper  primaer mit KM-39942/,NEGATIVE,081Y,M,08-06-2006-NA-PET-CT Ganzkoerper  primaer mit KM-39942
+./FDG-PET-CT-Lesions/PETCT_4dcf62f869/11-03-2000-NA-PET-CT Ganzkoerper  primaer mit KM-52454/,LUNG_CANCER,082Y,F,11-03-2000-NA-PET-CT Ganzkoerper  primaer mit KM-52454
+./FDG-PET-CT-Lesions/PETCT_4e3d83bfe3/09-29-2003-NA-PET-CT Ganzkoerper nativ u. mit KM-11805/,NEGATIVE,053Y,M,09-29-2003-NA-PET-CT Ganzkoerper nativ u. mit KM-11805
+./FDG-PET-CT-Lesions/PETCT_53dad1785b/12-11-2005-NA-PET-CT Ganzkoerper  primaer mit KM-08525/,MELANOMA,059Y,M,12-11-2005-NA-PET-CT Ganzkoerper  primaer mit KM-08525
+./FDG-PET-CT-Lesions/PETCT_54bed1d98f/05-24-2003-NA-PET-CT Ganzkoerper nativ-15731/,NEGATIVE,077Y,M,05-24-2003-NA-PET-CT Ganzkoerper nativ-15731
+./FDG-PET-CT-Lesions/PETCT_55ca11402a/06-05-2003-NA-PET-CT Ganzkoerper  primaer mit KM-30298/,LYMPHOMA,052Y,M,06-05-2003-NA-PET-CT Ganzkoerper  primaer mit KM-30298
+./FDG-PET-CT-Lesions/PETCT_59e6d1de22/08-06-2005-NA-PET-CT Ganzkoerper  primaer mit KM-59516/,LYMPHOMA,051Y,M,08-06-2005-NA-PET-CT Ganzkoerper  primaer mit KM-59516
+./FDG-PET-CT-Lesions/PETCT_5d6bf1e75f/12-10-2000-NA-PET-CT Ganzkoerper  primaer mit KM-70028/,LUNG_CANCER,083Y,F,12-10-2000-NA-PET-CT Ganzkoerper  primaer mit KM-70028
+./FDG-PET-CT-Lesions/PETCT_5e339b2ecf/05-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-41089/,NEGATIVE,059Y,F,05-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-41089
+./FDG-PET-CT-Lesions/PETCT_5e339b2ecf/11-11-2005-NA-PET-CT Ganzkoerper  primaer mit KM-39829/,NEGATIVE,059Y,F,11-11-2005-NA-PET-CT Ganzkoerper  primaer mit KM-39829
+./FDG-PET-CT-Lesions/PETCT_631b419cef/11-23-2006-NA-PET-CT Ganzkoerper  primaer mit KM-73635/,NEGATIVE,059Y,M,11-23-2006-NA-PET-CT Ganzkoerper  primaer mit KM-73635
+./FDG-PET-CT-Lesions/PETCT_63dd9503eb/01-18-2001-NA-PET-CT Ganzkoerper  primaer mit KM-34683/,LUNG_CANCER,064Y,M,01-18-2001-NA-PET-CT Ganzkoerper  primaer mit KM-34683
+./FDG-PET-CT-Lesions/PETCT_68a7ade33c/07-08-2001-NA-PET-CT Ganzkoerper  primaer mit KM-05114/,LUNG_CANCER,073Y,M,07-08-2001-NA-PET-CT Ganzkoerper  primaer mit KM-05114
+./FDG-PET-CT-Lesions/PETCT_6dd36a2c19/11-28-2003-NA-PET-CT Ganzkoerper nativ-34848/,NEGATIVE,063Y,M,11-28-2003-NA-PET-CT Ganzkoerper nativ-34848
+./FDG-PET-CT-Lesions/PETCT_71ae114917/04-13-2003-NA-PET-CT Ganzkoerper  primaer mit KM-89747/,NEGATIVE,059Y,F,04-13-2003-NA-PET-CT Ganzkoerper  primaer mit KM-89747
+./FDG-PET-CT-Lesions/PETCT_77bceab232/11-21-2002-NA-PET-CT Ganzkoerper  primaer mit KM-21240/,LUNG_CANCER,061Y,F,11-21-2002-NA-PET-CT Ganzkoerper  primaer mit KM-21240
+./FDG-PET-CT-Lesions/PETCT_7b9d625330/11-17-2002-NA-PET-CT Ganzkoerper  primaer mit KM-75418/,NEGATIVE,051Y,F,11-17-2002-NA-PET-CT Ganzkoerper  primaer mit KM-75418
+./FDG-PET-CT-Lesions/PETCT_7ed037687a/01-27-2003-NA-PET-CT Ganzkoerper  primaer mit KM-34568/,MELANOMA,057Y,M,01-27-2003-NA-PET-CT Ganzkoerper  primaer mit KM-34568
+./FDG-PET-CT-Lesions/PETCT_7f2a604e03/05-05-2002-NA-PET-CT Ganzkoerper  primaer mit KM-38994/,MELANOMA,064Y,M,05-05-2002-NA-PET-CT Ganzkoerper  primaer mit KM-38994
+./FDG-PET-CT-Lesions/PETCT_855c7fca12/07-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-14836/,NEGATIVE,055Y,M,07-27-2006-NA-PET-CT Ganzkoerper  primaer mit KM-14836
+./FDG-PET-CT-Lesions/PETCT_86153b2974/04-03-2005-NA-PET-CT Ganzkoerper  primaer mit KM-66144/,NEGATIVE,033Y,M,04-03-2005-NA-PET-CT Ganzkoerper  primaer mit KM-66144
+./FDG-PET-CT-Lesions/PETCT_960c5f4262/02-25-2005-NA-Unspecified CT ABDOMEN-99933/,NEGATIVE,067Y,M,02-25-2005-NA-Unspecified CT ABDOMEN-99933
+./FDG-PET-CT-Lesions/PETCT_979f9c3dba/06-22-2006-NA-PET-CT Ganzkoerper  primaer mit KM-59545/,MELANOMA,075Y,F,06-22-2006-NA-PET-CT Ganzkoerper  primaer mit KM-59545
+./FDG-PET-CT-Lesions/PETCT_9837205b34/09-01-2002-NA-PET-CT Ganzkoerper  primaer mit KM-19630/,LUNG_CANCER,069Y,M,09-01-2002-NA-PET-CT Ganzkoerper  primaer mit KM-19630
+./FDG-PET-CT-Lesions/PETCT_98cd91d44e/09-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-87006/,NEGATIVE,048Y,M,09-06-2003-NA-PET-CT Ganzkoerper  primaer mit KM-87006
+./FDG-PET-CT-Lesions/PETCT_993d40ea7e/12-25-2005-NA-PET-CT Ganzkoerper  primaer mit KM-79346/,NEGATIVE,057Y,F,12-25-2005-NA-PET-CT Ganzkoerper  primaer mit KM-79346
+./FDG-PET-CT-Lesions/PETCT_99a7bfad23/08-26-2000-NA-PET-CT Ganzkoerper  primaer mit KM-87293/,LUNG_CANCER,059Y,F,08-26-2000-NA-PET-CT Ganzkoerper  primaer mit KM-87293
+./FDG-PET-CT-Lesions/PETCT_9a66a81ad1/05-13-2006-NA-PET-CT Ganzkoerper  primaer mit KM-84406/,NEGATIVE,063Y,M,05-13-2006-NA-PET-CT Ganzkoerper  primaer mit KM-84406
+./FDG-PET-CT-Lesions/PETCT_9a83943958/08-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-73758/,NEGATIVE,072Y,M,08-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-73758
+./FDG-PET-CT-Lesions/PETCT_9ffd8409b3/07-15-2005-NA-PET-CT Ganzkoerper  primaer mit KM-58670/,LYMPHOMA,040Y,M,07-15-2005-NA-PET-CT Ganzkoerper  primaer mit KM-58670
+./FDG-PET-CT-Lesions/PETCT_a19c2a0c65/03-05-2006-NA-PET-CT Ganzkoerper  primaer mit KM-55038/,NEGATIVE,064Y,F,03-05-2006-NA-PET-CT Ganzkoerper  primaer mit KM-55038
+./FDG-PET-CT-Lesions/PETCT_a37c4e231f/12-13-2002-NA-PET-CT Ganzkoerper  primaer mit KM-39859/,NEGATIVE,069Y,F,12-13-2002-NA-PET-CT Ganzkoerper  primaer mit KM-39859
+./FDG-PET-CT-Lesions/PETCT_a4cd2b10de/10-15-2006-NA-PET-CT Ganzkoerper  primaer mit KM-15665/,NEGATIVE,074Y,M,10-15-2006-NA-PET-CT Ganzkoerper  primaer mit KM-15665
+./FDG-PET-CT-Lesions/PETCT_a57bd6b006/11-09-2002-NA-PET-CT Ganzkoerper  primaer mit KM-13048/,NEGATIVE,049Y,M,11-09-2002-NA-PET-CT Ganzkoerper  primaer mit KM-13048
+./FDG-PET-CT-Lesions/PETCT_a86b2dc6ce/10-14-2002-NA-PET-CT Ganzkoerper  primaer mit KM-74189/,MELANOMA,052Y,F,10-14-2002-NA-PET-CT Ganzkoerper  primaer mit KM-74189
+./FDG-PET-CT-Lesions/PETCT_ab1fa26e5e/06-23-2001-NA-PET-CT Ganzkoerper  primaer mit KM-50764/,LUNG_CANCER,048Y,F,06-23-2001-NA-PET-CT Ganzkoerper  primaer mit KM-50764
+./FDG-PET-CT-Lesions/PETCT_ad7c6a4a58/03-28-2003-NA-Unspecified CT ABDOMEN-00777/,LUNG_CANCER,066Y,M,03-28-2003-NA-Unspecified CT ABDOMEN-00777
+./FDG-PET-CT-Lesions/PETCT_ae6a37a9d6/02-18-2006-NA-PET-CT Ganzkoerper nativ-18818/,NEGATIVE,072Y,M,02-18-2006-NA-PET-CT Ganzkoerper nativ-18818
+./FDG-PET-CT-Lesions/PETCT_ae96f738c0/05-01-2003-NA-PET-CT Ganzkoerper  primaer mit KM-67749/,LYMPHOMA,019Y,M,05-01-2003-NA-PET-CT Ganzkoerper  primaer mit KM-67749
+./FDG-PET-CT-Lesions/PETCT_b0e002e974/04-02-2005-NA-PET-CT Ganzkoerper  primaer mit KM-74530/,NEGATIVE,054Y,M,04-02-2005-NA-PET-CT Ganzkoerper  primaer mit KM-74530
+./FDG-PET-CT-Lesions/PETCT_b42adab18e/09-05-2003-NA-PET-CT Ganzkoerper  primaer mit KM-60746/,NEGATIVE,085Y,M,09-05-2003-NA-PET-CT Ganzkoerper  primaer mit KM-60746
+./FDG-PET-CT-Lesions/PETCT_b510436d83/11-14-2003-NA-PET-CT Ganzkoerper  primaer mit KM-35292/,MELANOMA,057Y,F,11-14-2003-NA-PET-CT Ganzkoerper  primaer mit KM-35292
+./FDG-PET-CT-Lesions/PETCT_bc80d06f97/02-18-2002-NA-PET-CT Ganzkoerper  primaer mit KM-82151/,MELANOMA,079Y,F,02-18-2002-NA-PET-CT Ganzkoerper  primaer mit KM-82151
+./FDG-PET-CT-Lesions/PETCT_be3e55a32f/04-05-2001-NA-PET-CT Ganzkoerper  primaer mit KM-98009/,MELANOMA,083Y,M,04-05-2001-NA-PET-CT Ganzkoerper  primaer mit KM-98009
+./FDG-PET-CT-Lesions/PETCT_c16c13211c/10-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-76612/,MELANOMA,076Y,F,10-26-2003-NA-PET-CT Ganzkoerper  primaer mit KM-76612
+./FDG-PET-CT-Lesions/PETCT_c2a51a65c6/09-15-2002-NA-PET-CT Ganzkoerper  primaer mit KM-57232/,LUNG_CANCER,071Y,M,09-15-2002-NA-PET-CT Ganzkoerper  primaer mit KM-57232
+./FDG-PET-CT-Lesions/PETCT_c32e1daf9b/02-02-2003-NA-PET-CT Ganzkoerper  primaer mit KM-73090/,NEGATIVE,052Y,F,02-02-2003-NA-PET-CT Ganzkoerper  primaer mit KM-73090
+./FDG-PET-CT-Lesions/PETCT_c38b168f1a/04-15-2006-NA-PET-CT Ganzkoerper  primaer mit KM-47644/,NEGATIVE,075Y,F,04-15-2006-NA-PET-CT Ganzkoerper  primaer mit KM-47644
+./FDG-PET-CT-Lesions/PETCT_c5a143a604/08-12-2006-NA-PET-CT Ganzkoerper  primaer mit KM-37820/,NEGATIVE,056Y,F,08-12-2006-NA-PET-CT Ganzkoerper  primaer mit KM-37820
+./FDG-PET-CT-Lesions/PETCT_c799ccc2f6/08-26-2002-NA-PET-CT Ganzkoerper  primaer mit KM-15112/,LUNG_CANCER,060Y,F,08-26-2002-NA-PET-CT Ganzkoerper  primaer mit KM-15112
+./FDG-PET-CT-Lesions/PETCT_c7dc6f848c/02-02-2006-NA-PET-CT Ganzkoerper  primaer mit KM-41299/,NEGATIVE,076Y,F,02-02-2006-NA-PET-CT Ganzkoerper  primaer mit KM-41299
+./FDG-PET-CT-Lesions/PETCT_ca9570a0eb/09-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-61774/,NEGATIVE,020Y,,09-28-2002-NA-PET-CT Ganzkoerper  primaer mit KM-61774
+./FDG-PET-CT-Lesions/PETCT_cb1f5e74ab/06-14-2001-NA-PET-CT Ganzkoerper  primaer mit KM-39650/,LUNG_CANCER,057Y,F,06-14-2001-NA-PET-CT Ganzkoerper  primaer mit KM-39650
+./FDG-PET-CT-Lesions/PETCT_d31a5688a2/09-21-2003-NA-PET-CT Ganzkoerper  primaer mit KM-27218/,NEGATIVE,050Y,M,09-21-2003-NA-PET-CT Ganzkoerper  primaer mit KM-27218
+./FDG-PET-CT-Lesions/PETCT_d626611daf/04-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-63001/,NEGATIVE,079Y,M,04-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-63001
+./FDG-PET-CT-Lesions/PETCT_d951eeb735/01-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-21299/,LUNG_CANCER,077Y,F,01-23-2003-NA-PET-CT Ganzkoerper  primaer mit KM-21299
+./FDG-PET-CT-Lesions/PETCT_db3daf78d2/10-30-2000-NA-PET-CT Ganzkoerper  primaer mit KM-67998/,LYMPHOMA,018Y,M,10-30-2000-NA-PET-CT Ganzkoerper  primaer mit KM-67998
+./FDG-PET-CT-Lesions/PETCT_dc6174cb5d/12-15-2002-NA-PET-CT Ganzkoerper  primaer mit KM-78881/,MELANOMA,061Y,F,12-15-2002-NA-PET-CT Ganzkoerper  primaer mit KM-78881
+./FDG-PET-CT-Lesions/PETCT_dec9ff6a91/03-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-15283/,NEGATIVE,047Y,M,03-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-15283
+./FDG-PET-CT-Lesions/PETCT_ded50b1e68/02-09-2006-NA-PET-CT Ganzkoerper  primaer mit KM-93797/,NEGATIVE,060Y,M,02-09-2006-NA-PET-CT Ganzkoerper  primaer mit KM-93797
+./FDG-PET-CT-Lesions/PETCT_e2309b8f92/06-03-2007-NA-PET-CT Ganzkoerper  primaer mit KM-14588/,NEGATIVE,071Y,F,06-03-2007-NA-PET-CT Ganzkoerper  primaer mit KM-14588
+./FDG-PET-CT-Lesions/PETCT_e2834e6f5c/06-14-2002-NA-PET-CT Ganzkoerper  primaer mit KM-51062/,MELANOMA,057Y,M,06-14-2002-NA-PET-CT Ganzkoerper  primaer mit KM-51062
+./FDG-PET-CT-Lesions/PETCT_e8624bab41/07-07-2007-NA-PET-CT Ganzkoerper  primaer mit KM-38521/,NEGATIVE,054Y,M,07-07-2007-NA-PET-CT Ganzkoerper  primaer mit KM-38521
+./FDG-PET-CT-Lesions/PETCT_e90a287d09/08-22-2002-NA-PET-CT Ganzkoerper nativ-44603/,NEGATIVE,058Y,F,08-22-2002-NA-PET-CT Ganzkoerper nativ-44603
+./FDG-PET-CT-Lesions/PETCT_ebaa30ba2e/04-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-69806/,NEGATIVE,057Y,F,04-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-69806
+./FDG-PET-CT-Lesions/PETCT_ed7abf4433/12-06-2002-NA-PET-CT Ganzkoerper  primaer mit KM-58502/,NEGATIVE,064Y,M,12-06-2002-NA-PET-CT Ganzkoerper  primaer mit KM-58502
+./FDG-PET-CT-Lesions/PETCT_f1501b1f45/03-20-2005-NA-PET-CT Ganzkoerper  primaer mit KM-34354/,LYMPHOMA,046Y,F,03-20-2005-NA-PET-CT Ganzkoerper  primaer mit KM-34354
+./FDG-PET-CT-Lesions/PETCT_f5c9b0de6c/04-02-2004-NA-PET-CT Ganzkoerper  primaer mit KM-04984/,MELANOMA,059Y,F,04-02-2004-NA-PET-CT Ganzkoerper  primaer mit KM-04984
+./FDG-PET-CT-Lesions/PETCT_f603eeceba/03-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-29929/,NEGATIVE,067Y,F,03-17-2003-NA-PET-CT Ganzkoerper  primaer mit KM-29929
+./FDG-PET-CT-Lesions/PETCT_f65602d938/03-25-2007-NA-PET-CT Ganzkoerper  primaer mit KM-91477/,MELANOMA,050Y,F,03-25-2007-NA-PET-CT Ganzkoerper  primaer mit KM-91477
+./FDG-PET-CT-Lesions/PETCT_f7067b7bbb/05-26-2001-NA-PET-CT Ganzkoerper  primaer mit KM-25597/,LUNG_CANCER,066Y,M,05-26-2001-NA-PET-CT Ganzkoerper  primaer mit KM-25597

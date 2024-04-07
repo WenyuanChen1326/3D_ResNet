@@ -1,0 +1,1266 @@
+2024-04-02 23:52:00,275 - INFO - Using device: cuda
+2024-04-03 00:37:28,464 - INFO - Using device: cuda
+2024-04-03 00:38:05,442 - INFO - Using device: cuda
+2024-04-03 00:38:08,742 - INFO - epoch 0 starts
+2024-04-03 00:40:42,071 - INFO - Using device: cuda
+2024-04-03 00:40:45,717 - INFO - epoch 0 starts
+2024-04-03 00:46:07,049 - INFO - Using device: cuda:5
+2024-04-03 00:46:09,439 - INFO - epoch 0 starts
+2024-04-03 00:49:32,713 - INFO - Using device: cuda:5
+2024-04-03 00:49:35,028 - INFO - epoch 0 starts
+2024-04-03 00:52:19,416 - INFO - Using device: cuda:5
+2024-04-03 00:52:21,815 - INFO - epoch 0 starts
+2024-04-03 06:40:05,084 - INFO - Using device: cuda:5
+2024-04-03 06:40:07,315 - INFO - epoch 0 starts
+2024-04-03 06:41:35,060 - INFO - Using device: cuda:5
+2024-04-03 06:41:37,351 - INFO - epoch 0 starts
+2024-04-03 06:42:47,323 - INFO - Using device: cuda:5
+2024-04-03 06:42:49,522 - INFO - epoch 0 starts
+2024-04-03 06:43:44,162 - INFO - Using device: cuda:5
+2024-04-03 06:43:46,484 - INFO - epoch 0 starts
+2024-04-03 06:43:54,557 - INFO - Epoch 0:
+2024-04-03 06:43:54,557 - INFO -  Training Loss: 0.0003, Training Accuracy: 100.00%
+2024-04-03 06:43:54,557 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 25.00%
+2024-04-03 06:43:55,719 - INFO - Plots saved: "training_validation_loss.png" and "training_validation_accuracy.png"
+2024-04-03 06:44:45,413 - INFO - Using device: cuda:5
+2024-04-03 06:44:47,655 - INFO - epoch 0 starts
+2024-04-03 06:44:55,059 - INFO - Epoch 0:
+2024-04-03 06:44:55,060 - INFO -  Training Loss: 0.0003, Training Accuracy: 25.00%
+2024-04-03 06:44:55,060 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 25.00%
+2024-04-03 06:44:55,060 - INFO - epoch 1 starts
+2024-04-03 06:45:00,741 - INFO - Epoch 1:
+2024-04-03 06:45:00,741 - INFO -  Training Loss: 0.0003, Training Accuracy: 100.00%
+2024-04-03 06:45:00,741 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 75.00%
+2024-04-03 06:45:00,741 - INFO - epoch 2 starts
+2024-04-03 06:45:06,266 - INFO - Epoch 2:
+2024-04-03 06:45:06,267 - INFO -  Training Loss: 0.0002, Training Accuracy: 0.00%
+2024-04-03 06:45:06,267 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 25.00%
+2024-04-03 06:45:06,267 - INFO - epoch 3 starts
+2024-04-03 06:45:11,771 - INFO - Epoch 3:
+2024-04-03 06:45:11,772 - INFO -  Training Loss: 0.0002, Training Accuracy: 25.00%
+2024-04-03 06:45:11,772 - INFO -  Validation Loss: 0.0015, Validation Accuracy: 0.00%
+2024-04-03 06:45:11,772 - INFO - epoch 4 starts
+2024-04-03 06:45:17,305 - INFO - Epoch 4:
+2024-04-03 06:45:17,306 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 06:45:17,306 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 0.00%
+2024-04-03 06:45:17,831 - INFO - Plots saved: "training_validation_loss.png" and "training_validation_accuracy.png"
+2024-04-03 06:46:53,640 - INFO - Using device: cuda:5
+2024-04-03 06:52:29,425 - INFO - Using device: cuda:5
+2024-04-03 06:52:39,915 - INFO - Test Loss: 0.0000, Test Accuracy: 0.00%
+2024-04-03 06:53:13,236 - INFO - Using device: cuda:5
+2024-04-03 06:53:29,009 - INFO - Test Loss: 0.0000, Test Accuracy: 18.75%
+2024-04-03 07:27:43,298 - INFO - Using device: cuda:5
+2024-04-03 07:28:56,548 - INFO - Using device: cuda:5
+2024-04-03 07:29:57,321 - INFO - Using device: cuda:5
+2024-04-03 07:30:13,264 - INFO - Test Accuracy: 0.1875, Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000
+2024-04-03 07:30:13,432 - INFO - Test Loss: 14.8336
+2024-04-03 07:33:31,000 - INFO - Using device: cuda:5
+2024-04-03 07:33:47,284 - INFO - Test Accuracy: 0.1875, Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000
+2024-04-03 07:33:47,472 - INFO - Test Loss: 14.8336
+2024-04-03 07:41:49,719 - INFO - Using device: cuda:5
+2024-04-03 07:41:52,066 - INFO - epoch 0 starts
+2024-04-03 07:41:59,735 - INFO - Epoch 0:
+2024-04-03 07:41:59,736 - INFO -  Training Loss: 0.0003, Training Accuracy: 25.00%
+2024-04-03 07:41:59,736 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 0.00%
+2024-04-03 07:41:59,736 - INFO - epoch 1 starts
+2024-04-03 07:42:04,824 - INFO - Epoch 1:
+2024-04-03 07:42:04,825 - INFO -  Training Loss: 0.0002, Training Accuracy: 0.00%
+2024-04-03 07:42:04,825 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 0.00%
+2024-04-03 07:42:04,825 - INFO - epoch 2 starts
+2024-04-03 07:42:10,279 - INFO - Epoch 2:
+2024-04-03 07:42:10,280 - INFO -  Training Loss: 0.0002, Training Accuracy: 75.00%
+2024-04-03 07:42:10,280 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 75.00%
+2024-04-03 07:42:10,280 - INFO - epoch 3 starts
+2024-04-03 07:42:15,716 - INFO - Epoch 3:
+2024-04-03 07:42:15,717 - INFO -  Training Loss: 0.0001, Training Accuracy: 25.00%
+2024-04-03 07:42:15,717 - INFO -  Validation Loss: 0.0013, Validation Accuracy: 50.00%
+2024-04-03 07:42:15,717 - INFO - epoch 4 starts
+2024-04-03 07:42:20,935 - INFO - Epoch 4:
+2024-04-03 07:42:20,936 - INFO -  Training Loss: 0.0001, Training Accuracy: 0.00%
+2024-04-03 07:42:20,936 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 50.00%
+2024-04-03 07:42:21,519 - INFO - Plots saved: "training_validation_loss.png" and "training_validation_accuracy_for_current_time2024-04-03_07-41-49.png"
+2024-04-03 07:50:58,529 - INFO - Using device: cuda:5
+2024-04-03 07:51:00,874 - INFO - epoch 0 starts
+2024-04-03 07:51:08,583 - INFO - Epoch 0:
+2024-04-03 07:51:08,583 - INFO -  Training Loss: 0.0002, Training Accuracy: 0.00%
+2024-04-03 07:51:08,583 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 25.00%
+2024-04-03 07:51:08,584 - INFO - epoch 1 starts
+2024-04-03 07:51:13,612 - INFO - Epoch 1:
+2024-04-03 07:51:13,613 - INFO -  Training Loss: 0.0002, Training Accuracy: 25.00%
+2024-04-03 07:51:13,613 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 0.00%
+2024-04-03 07:51:13,613 - INFO - epoch 2 starts
+2024-04-03 07:51:18,556 - INFO - Epoch 2:
+2024-04-03 07:51:18,556 - INFO -  Training Loss: 0.0001, Training Accuracy: 25.00%
+2024-04-03 07:51:18,556 - INFO -  Validation Loss: 0.0016, Validation Accuracy: 0.00%
+2024-04-03 07:51:18,556 - INFO - epoch 3 starts
+2024-04-03 07:51:23,632 - INFO - Epoch 3:
+2024-04-03 07:51:23,632 - INFO -  Training Loss: 0.0001, Training Accuracy: 25.00%
+2024-04-03 07:51:23,632 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 25.00%
+2024-04-03 07:51:23,633 - INFO - epoch 4 starts
+2024-04-03 07:51:28,877 - INFO - Epoch 4:
+2024-04-03 07:51:28,877 - INFO -  Training Loss: 0.0000, Training Accuracy: 0.00%
+2024-04-03 07:51:28,877 - INFO -  Validation Loss: 0.0008, Validation Accuracy: 0.00%
+2024-04-03 07:51:29,323 - INFO - Plots saved: ./2024-04-03_07-50-58/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_07-50-58/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 07:53:13,497 - INFO - Using device: cuda:5
+2024-04-03 07:53:29,496 - INFO - Test Accuracy: 0.8125, Precision: 0.8125, Recall: 1.0000, F1 Score: 0.8966
+2024-04-03 07:53:29,646 - INFO - Test Loss: 10.8297
+2024-04-03 07:56:07,266 - INFO - Using device: cuda:5
+2024-04-03 07:56:09,528 - INFO - epoch 0 starts
+2024-04-03 07:56:17,341 - INFO - Epoch 0:
+2024-04-03 07:56:17,341 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 07:56:17,341 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 125.00%
+2024-04-03 07:56:17,341 - INFO - epoch 1 starts
+2024-04-03 07:56:22,512 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 07:56:22,513 - INFO - Epoch 1:
+2024-04-03 07:56:22,513 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 07:56:22,513 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 0.00%
+2024-04-03 07:56:22,513 - INFO - epoch 2 starts
+2024-04-03 07:56:27,607 - INFO - Epoch 2:
+2024-04-03 07:56:27,607 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 07:56:27,607 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 50.00%
+2024-04-03 07:56:28,173 - INFO - Plots saved: ./2024-04-03_07-56-09/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_07-56-09/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 07:57:25,603 - INFO - Using device: cuda:5
+2024-04-03 07:57:41,916 - INFO - Test Accuracy: 0.8125, Precision: 0.8125, Recall: 1.0000, F1 Score: 0.8966
+2024-04-03 07:57:42,042 - INFO - Test Loss: 14.5192
+2024-04-03 08:25:11,386 - INFO - Using device: cuda:5
+2024-04-03 08:25:13,652 - INFO - epoch 0 starts
+2024-04-03 08:27:08,695 - INFO - Using device: cuda:5
+2024-04-03 08:27:11,028 - INFO - epoch 0 starts
+2024-04-03 08:27:17,226 - INFO - Epoch 0:
+2024-04-03 08:27:17,226 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:27:17,226 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 175.00%
+2024-04-03 08:27:17,227 - INFO - epoch 1 starts
+2024-04-03 08:27:20,096 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:27:20,096 - INFO - Epoch 1:
+2024-04-03 08:27:20,096 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:27:20,096 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 100.00%
+2024-04-03 08:27:20,096 - INFO - epoch 2 starts
+2024-04-03 08:27:23,160 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 08:27:23,160 - INFO - Epoch 2:
+2024-04-03 08:27:23,160 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 08:27:23,160 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 100.00%
+2024-04-03 08:27:23,160 - INFO - epoch 3 starts
+2024-04-03 08:27:25,926 - INFO - Epoch 3:
+2024-04-03 08:27:25,926 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:27:25,926 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 150.00%
+2024-04-03 08:27:25,926 - INFO - epoch 4 starts
+2024-04-03 08:27:28,900 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:27:28,900 - INFO - Epoch 4:
+2024-04-03 08:27:28,900 - INFO -  Training Loss: 0.0000, Training Accuracy: 75.00%
+2024-04-03 08:27:28,900 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 100.00%
+2024-04-03 08:27:28,900 - INFO - epoch 5 starts
+2024-04-03 08:27:34,983 - INFO - Epoch 5:
+2024-04-03 08:27:34,983 - INFO -  Training Loss: 0.0001, Training Accuracy: 150.00%
+2024-04-03 08:27:34,984 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 50.00%
+2024-04-03 08:27:34,984 - INFO - epoch 6 starts
+2024-04-03 08:27:37,987 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:27:37,987 - INFO - Epoch 6:
+2024-04-03 08:27:37,987 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 08:27:37,988 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 150.00%
+2024-04-03 08:27:37,988 - INFO - epoch 7 starts
+2024-04-03 08:27:40,803 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 08:27:40,803 - INFO - Epoch 7:
+2024-04-03 08:27:40,803 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 08:27:40,803 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 125.00%
+2024-04-03 08:27:40,803 - INFO - epoch 8 starts
+2024-04-03 08:27:43,717 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 08:27:43,717 - INFO - Epoch 8:
+2024-04-03 08:27:43,717 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:27:43,717 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 75.00%
+2024-04-03 08:27:43,717 - INFO - epoch 9 starts
+2024-04-03 08:27:46,677 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-03 08:27:46,677 - INFO - Epoch 9:
+2024-04-03 08:27:46,678 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:27:46,678 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 175.00%
+2024-04-03 08:27:47,091 - INFO - Plots saved: ./2024-04-03_08-27-11/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-27-11/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 08:35:24,460 - INFO - Using device: cuda:5
+2024-04-03 08:35:26,896 - INFO - epoch 0 starts
+2024-04-03 08:35:35,041 - INFO - Epoch 0:
+2024-04-03 08:35:35,042 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:35:35,042 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 125.00%
+2024-04-03 08:35:35,042 - INFO - epoch 1 starts
+2024-04-03 08:35:37,906 - INFO - Epoch 1:
+2024-04-03 08:35:37,906 - INFO -  Training Loss: 0.0000, Training Accuracy: 100.00%
+2024-04-03 08:35:37,906 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 75.00%
+2024-04-03 08:35:37,907 - INFO - epoch 2 starts
+2024-04-03 08:35:40,804 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:35:40,804 - INFO - Epoch 2:
+2024-04-03 08:35:40,804 - INFO -  Training Loss: 0.0001, Training Accuracy: 150.00%
+2024-04-03 08:35:40,804 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 100.00%
+2024-04-03 08:35:41,246 - INFO - Plots saved: ./2024-04-03_08-35-26/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-35-26/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 08:39:06,547 - INFO - Using device: cuda:5
+2024-04-03 08:39:09,110 - INFO - epoch 0 starts
+2024-04-03 08:39:29,396 - INFO - Epoch 0:
+2024-04-03 08:39:29,397 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:39:29,397 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 125.00%
+2024-04-03 08:39:29,397 - INFO - epoch 1 starts
+2024-04-03 08:39:32,310 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:39:32,310 - INFO - Epoch 1:
+2024-04-03 08:39:32,310 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 08:39:32,310 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 150.00%
+2024-04-03 08:39:32,310 - INFO - epoch 2 starts
+2024-04-03 08:39:35,254 - INFO - Epoch 2:
+2024-04-03 08:39:35,255 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 08:39:35,255 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 75.00%
+2024-04-03 08:39:35,740 - INFO - Plots saved: ./2024-04-03_08-39-09/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-39-09/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 08:49:40,038 - INFO - Using device: cuda:5
+2024-04-03 08:49:42,223 - INFO - epoch 0 starts
+2024-04-03 08:49:49,988 - INFO - Epoch 0:
+2024-04-03 08:49:49,988 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:49:49,988 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 175.00%
+2024-04-03 08:49:49,988 - INFO - epoch 1 starts
+2024-04-03 08:49:52,913 - INFO - Epoch 1:
+2024-04-03 08:49:52,913 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:49:52,913 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 100.00%
+2024-04-03 08:49:52,914 - INFO - epoch 2 starts
+2024-04-03 08:49:55,855 - INFO - Epoch 2:
+2024-04-03 08:49:55,855 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:49:55,856 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 100.00%
+2024-04-03 08:49:56,332 - INFO - Plots saved: ./2024-04-03_08-49-42/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-49-42/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 08:52:46,626 - INFO - Using device: cuda:5
+2024-04-03 08:52:56,708 - INFO - Using device: cuda:5
+2024-04-03 08:52:59,047 - INFO - epoch 0 starts
+2024-04-03 08:53:06,823 - INFO - Epoch 0:
+2024-04-03 08:53:06,824 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:53:06,824 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 150.00%
+2024-04-03 08:53:06,824 - INFO - epoch 1 starts
+2024-04-03 08:53:09,607 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:53:09,607 - INFO - Epoch 1:
+2024-04-03 08:53:09,607 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:53:09,607 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 75.00%
+2024-04-03 08:53:09,607 - INFO - epoch 2 starts
+2024-04-03 08:53:12,416 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 08:53:12,416 - INFO - Epoch 2:
+2024-04-03 08:53:12,416 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:53:12,416 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 125.00%
+2024-04-03 08:53:12,912 - INFO - Plots saved: ./2024-04-03_08-52-59/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-52-59/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 08:57:38,419 - INFO - Using device: cuda:5
+2024-04-03 08:57:40,811 - INFO - epoch 0 starts
+2024-04-03 08:57:48,381 - INFO - Epoch 0:
+2024-04-03 08:57:48,381 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 08:57:48,381 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 08:57:48,381 - INFO - epoch 1 starts
+2024-04-03 08:57:51,158 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 08:57:51,158 - INFO - Epoch 1:
+2024-04-03 08:57:51,158 - INFO -  Training Loss: 0.0001, Training Accuracy: 150.00%
+2024-04-03 08:57:51,158 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 08:57:51,159 - INFO - epoch 2 starts
+2024-04-03 08:57:53,902 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 08:57:53,902 - INFO - Epoch 2:
+2024-04-03 08:57:53,902 - INFO -  Training Loss: 0.0001, Training Accuracy: 125.00%
+2024-04-03 08:57:53,902 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 08:57:54,571 - INFO - Plots saved: ./2024-04-03_08-57-40/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_08-57-40/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 09:00:28,862 - INFO - Using device: cuda:5
+2024-04-03 09:00:31,070 - INFO - epoch 0 starts
+2024-04-03 09:00:39,761 - INFO - Epoch 0:
+2024-04-03 09:00:39,761 - INFO -  Training Loss: 0.0001, Training Accuracy: 150.00%
+2024-04-03 09:00:39,761 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 150.00%
+2024-04-03 09:00:39,762 - INFO - epoch 1 starts
+2024-04-03 09:00:42,749 - INFO - Epoch 1:
+2024-04-03 09:00:42,749 - INFO -  Training Loss: 0.0001, Training Accuracy: 100.00%
+2024-04-03 09:00:42,749 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 150.00%
+2024-04-03 09:00:42,750 - INFO - epoch 2 starts
+2024-04-03 09:00:45,753 - INFO - Epoch 2:
+2024-04-03 09:00:45,754 - INFO -  Training Loss: 0.0000, Training Accuracy: 150.00%
+2024-04-03 09:00:45,754 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 150.00%
+2024-04-03 09:00:46,362 - INFO - Plots saved: ./2024-04-03_09-00-31/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_09-00-31/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 09:06:01,740 - INFO - Using device: cuda:5
+2024-04-03 09:06:03,846 - INFO - epoch 0 starts
+2024-04-03 09:06:11,803 - INFO - Epoch 0:
+2024-04-03 09:06:11,803 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 09:06:11,803 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 100.00%
+2024-04-03 09:06:11,803 - INFO - epoch 1 starts
+2024-04-03 09:06:14,671 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 09:06:14,671 - INFO - Epoch 1:
+2024-04-03 09:06:14,671 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 09:06:14,671 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 09:06:14,672 - INFO - epoch 2 starts
+2024-04-03 09:06:17,538 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 09:06:17,538 - INFO - Epoch 2:
+2024-04-03 09:06:17,538 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 09:06:17,538 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 100.00%
+2024-04-03 09:06:18,148 - INFO - Plots saved: ./2024-04-03_09-06-03/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_09-06-03/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 09:08:49,129 - INFO - Using device: cuda:5
+2024-04-03 09:08:51,592 - INFO - epoch 0 starts
+2024-04-03 09:09:00,510 - INFO - Epoch 0:
+2024-04-03 09:09:00,511 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 09:09:00,511 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 50.00%
+2024-04-03 09:09:00,511 - INFO - epoch 1 starts
+2024-04-03 09:09:03,421 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 09:09:03,421 - INFO - Epoch 1:
+2024-04-03 09:09:03,421 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 09:09:03,422 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 50.00%
+2024-04-03 09:09:03,422 - INFO - epoch 2 starts
+2024-04-03 09:09:06,196 - INFO - Epoch 2:
+2024-04-03 09:09:06,196 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 09:09:06,196 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 100.00%
+2024-04-03 09:09:16,692 - INFO - Plots saved: ./2024-04-03_09-08-51/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_09-08-51/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 09:10:14,411 - INFO - Using device: cuda:5
+2024-04-03 09:10:16,682 - INFO - epoch 0 starts
+2024-04-03 09:10:24,296 - INFO - Epoch 0:
+2024-04-03 09:10:24,296 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 09:10:24,296 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 50.00%
+2024-04-03 09:10:24,297 - INFO - epoch 1 starts
+2024-04-03 09:10:27,315 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 09:10:27,315 - INFO - Epoch 1:
+2024-04-03 09:10:27,315 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 09:10:27,315 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 09:10:27,316 - INFO - epoch 2 starts
+2024-04-03 09:10:30,273 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 09:10:30,274 - INFO - Epoch 2:
+2024-04-03 09:10:30,274 - INFO -  Training Loss: 0.0001, Training Accuracy: 87.50%
+2024-04-03 09:10:30,274 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 75.00%
+2024-04-03 09:10:30,274 - INFO - epoch 3 starts
+2024-04-03 09:10:33,222 - INFO - Epoch 3:
+2024-04-03 09:10:33,222 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 09:10:33,222 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 62.50%
+2024-04-03 09:10:33,222 - INFO - epoch 4 starts
+2024-04-03 09:10:35,961 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 09:10:35,961 - INFO - Epoch 4:
+2024-04-03 09:10:35,961 - INFO -  Training Loss: 0.0001, Training Accuracy: 25.00%
+2024-04-03 09:10:35,961 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 62.50%
+2024-04-03 09:10:35,961 - INFO - epoch 5 starts
+2024-04-03 09:10:38,948 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 09:10:50,259 - INFO - Epoch 5:
+2024-04-03 09:10:50,259 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 09:10:50,259 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 37.50%
+2024-04-03 09:10:50,260 - INFO - epoch 6 starts
+2024-04-03 09:10:53,157 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 09:10:53,157 - INFO - Epoch 6:
+2024-04-03 09:10:53,157 - INFO -  Training Loss: 0.0001, Training Accuracy: 75.00%
+2024-04-03 09:10:53,157 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 50.00%
+2024-04-03 09:10:53,157 - INFO - epoch 7 starts
+2024-04-03 09:10:56,138 - INFO - Epoch 7:
+2024-04-03 09:10:56,138 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 09:10:56,138 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 25.00%
+2024-04-03 09:10:56,138 - INFO - epoch 8 starts
+2024-04-03 09:10:57,250 - INFO - No negative blocks found for patient PETCT_1285b86bea in study 02-24-2006-NA-PET-CT Ganzkoerper  primaer mit KM-49419
+2024-04-03 09:16:44,397 - INFO - Using device: cuda:5
+2024-04-03 09:16:47,073 - INFO - epoch 6 starts
+2024-04-03 09:16:52,485 - INFO - Epoch 6:
+2024-04-03 09:16:52,485 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 09:16:52,485 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 37.50%
+2024-04-03 09:16:52,485 - INFO - epoch 7 starts
+2024-04-03 09:16:55,511 - INFO - Epoch 7:
+2024-04-03 09:16:55,511 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 09:16:55,511 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 50.00%
+2024-04-03 09:16:55,511 - INFO - epoch 8 starts
+2024-04-03 09:16:58,366 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 09:16:58,366 - INFO - Epoch 8:
+2024-04-03 09:16:58,366 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 09:16:58,366 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 37.50%
+2024-04-03 09:16:58,366 - INFO - epoch 9 starts
+2024-04-03 09:17:01,200 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 09:17:01,200 - INFO - Epoch 9:
+2024-04-03 09:17:01,200 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 09:17:01,200 - INFO -  Validation Loss: 0.0008, Validation Accuracy: 37.50%
+2024-04-03 09:17:01,770 - INFO - Plots saved: ./2024-04-03_09-10-16/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_09-10-16/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 09:19:49,177 - INFO - Using device: cuda:5
+2024-04-03 09:20:28,769 - INFO - Using device: cuda:5
+2024-04-03 09:26:52,904 - INFO - Using device: cuda:5
+2024-04-03 09:26:59,316 - INFO - Testing Starts!
+2024-04-03 09:27:31,108 - INFO - Using device: cuda:5
+2024-04-03 09:30:23,762 - INFO - Using device: cuda:5
+2024-04-03 09:30:26,088 - INFO - training start!
+2024-04-03 09:30:26,089 - INFO - epoch 0 starts
+2024-04-03 09:35:44,284 - INFO - Using device: cuda:4
+2024-04-03 09:35:46,732 - INFO - training start!
+2024-04-03 09:35:46,733 - INFO - epoch 0 starts
+2024-04-03 09:36:48,419 - INFO - Using device: cuda:4
+2024-04-03 09:36:50,753 - INFO - training start!
+2024-04-03 09:36:50,755 - INFO - epoch 0 starts
+2024-04-03 14:15:38,260 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:29:14,633 - INFO - Using device: cuda:4
+2024-04-03 16:29:16,890 - INFO - training start!
+2024-04-03 16:29:16,892 - INFO - epoch 0 starts
+2024-04-03 16:29:23,332 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:29:52,442 - INFO - Using device: cuda:4
+2024-04-03 16:29:54,636 - INFO - training start!
+2024-04-03 16:29:54,638 - INFO - epoch 0 starts
+2024-04-03 16:30:00,860 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:30:03,850 - INFO - checking point saving at epoch 0
+2024-04-03 16:30:03,851 - INFO - Epoch 0:
+2024-04-03 16:30:03,851 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 16:30:03,851 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 75.00%
+2024-04-03 16:30:03,851 - INFO - epoch 1 starts
+2024-04-03 16:30:07,779 - INFO - valid starts for epoch 1 starts
+2024-04-03 16:30:09,342 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:30:09,342 - INFO - Epoch 1:
+2024-04-03 16:30:09,342 - INFO -  Training Loss: 0.0002, Training Accuracy: 56.25%
+2024-04-03 16:30:09,342 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 37.50%
+2024-04-03 16:30:09,342 - INFO - epoch 2 starts
+2024-04-03 16:30:13,249 - INFO - valid starts for epoch 2 starts
+2024-04-03 16:30:14,818 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:30:14,818 - INFO - Epoch 2:
+2024-04-03 16:30:14,818 - INFO -  Training Loss: 0.0001, Training Accuracy: 56.25%
+2024-04-03 16:30:14,818 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 56.25%
+2024-04-03 16:30:14,818 - INFO - epoch 3 starts
+2024-04-03 16:30:18,594 - INFO - valid starts for epoch 3 starts
+2024-04-03 16:30:20,153 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 16:30:22,610 - INFO - checking point saving at epoch 3
+2024-04-03 16:30:22,610 - INFO - Epoch 3:
+2024-04-03 16:30:22,610 - INFO -  Training Loss: 0.0002, Training Accuracy: 37.50%
+2024-04-03 16:30:22,610 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 62.50%
+2024-04-03 16:30:22,610 - INFO - epoch 4 starts
+2024-04-03 16:30:26,538 - INFO - valid starts for epoch 4 starts
+2024-04-03 16:30:28,081 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-03 16:30:28,081 - INFO - Epoch 4:
+2024-04-03 16:30:28,081 - INFO -  Training Loss: 0.0001, Training Accuracy: 43.75%
+2024-04-03 16:30:28,081 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 50.00%
+2024-04-03 16:30:28,082 - INFO - epoch 5 starts
+2024-04-03 16:30:31,762 - INFO - valid starts for epoch 5 starts
+2024-04-03 16:30:33,223 - INFO - Epoch 5:
+2024-04-03 16:30:33,223 - INFO -  Training Loss: 0.0001, Training Accuracy: 25.00%
+2024-04-03 16:30:33,223 - INFO -  Validation Loss: 0.0008, Validation Accuracy: 56.25%
+2024-04-03 16:30:33,223 - INFO - epoch 6 starts
+2024-04-03 16:30:37,031 - INFO - valid starts for epoch 6 starts
+2024-04-03 16:30:56,679 - INFO - Using device: cuda:4
+2024-04-03 16:30:59,117 - INFO - training start!
+2024-04-03 16:30:59,119 - INFO - epoch 0 starts
+2024-04-03 16:31:05,294 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:31:08,942 - INFO - checking point saving at epoch 0
+2024-04-03 16:31:08,943 - INFO - Epoch 0:
+2024-04-03 16:31:08,943 - INFO -  Training Loss: 0.0002, Training Accuracy: 37.50%
+2024-04-03 16:31:08,943 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 31.25%
+2024-04-03 16:31:08,943 - INFO - epoch 1 starts
+2024-04-03 16:31:12,807 - INFO - valid starts for epoch 1 starts
+2024-04-03 16:31:14,393 - INFO - Epoch 1:
+2024-04-03 16:31:14,393 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 16:31:14,393 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 68.75%
+2024-04-03 16:31:14,393 - INFO - epoch 2 starts
+2024-04-03 16:31:18,212 - INFO - valid starts for epoch 2 starts
+2024-04-03 16:31:19,755 - INFO - Epoch 2:
+2024-04-03 16:31:19,755 - INFO -  Training Loss: 0.0002, Training Accuracy: 43.75%
+2024-04-03 16:31:19,755 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 68.75%
+2024-04-03 16:31:19,756 - INFO - epoch 3 starts
+2024-04-03 16:31:23,543 - INFO - valid starts for epoch 3 starts
+2024-04-03 16:31:24,991 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:31:26,310 - INFO - checking point saving at epoch 3
+2024-04-03 16:31:26,310 - INFO - Epoch 3:
+2024-04-03 16:31:26,310 - INFO -  Training Loss: 0.0002, Training Accuracy: 62.50%
+2024-04-03 16:31:26,310 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 18.75%
+2024-04-03 16:31:26,311 - INFO - epoch 4 starts
+2024-04-03 16:31:30,213 - INFO - valid starts for epoch 4 starts
+2024-04-03 16:31:31,614 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:31:31,614 - INFO - Epoch 4:
+2024-04-03 16:31:31,614 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 16:31:31,614 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 43.75%
+2024-04-03 16:31:31,614 - INFO - epoch 5 starts
+2024-04-03 16:31:35,454 - INFO - valid starts for epoch 5 starts
+2024-04-03 16:31:37,039 - INFO - Epoch 5:
+2024-04-03 16:31:37,039 - INFO -  Training Loss: 0.0001, Training Accuracy: 56.25%
+2024-04-03 16:31:37,039 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 62.50%
+2024-04-03 16:31:37,039 - INFO - epoch 6 starts
+2024-04-03 16:31:40,920 - INFO - valid starts for epoch 6 starts
+2024-04-03 16:31:42,583 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:31:45,288 - INFO - checking point saving at epoch 6
+2024-04-03 16:31:45,288 - INFO - Epoch 6:
+2024-04-03 16:31:45,288 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 16:31:45,289 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 56.25%
+2024-04-03 16:31:45,289 - INFO - epoch 7 starts
+2024-04-03 16:31:49,219 - INFO - valid starts for epoch 7 starts
+2024-04-03 16:31:50,870 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:31:50,871 - INFO - Epoch 7:
+2024-04-03 16:31:50,871 - INFO -  Training Loss: 0.0002, Training Accuracy: 31.25%
+2024-04-03 16:31:50,871 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 56.25%
+2024-04-03 16:31:50,871 - INFO - epoch 8 starts
+2024-04-03 16:31:54,655 - INFO - valid starts for epoch 8 starts
+2024-04-03 16:31:56,055 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 16:31:56,055 - INFO - Epoch 8:
+2024-04-03 16:31:56,055 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 16:31:56,055 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 37.50%
+2024-04-03 16:31:56,660 - INFO - Plots saved: ./2024-04-03_16-30-59/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_16-30-59/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 16:35:09,920 - INFO - Using device: cuda:4
+2024-04-03 16:35:12,071 - INFO - training start!
+2024-04-03 16:35:12,073 - INFO - epoch 0 starts
+2024-04-03 16:36:12,220 - INFO - Using device: cuda:4
+2024-04-03 16:36:14,528 - INFO - training start!
+2024-04-03 16:36:14,529 - INFO - epoch 0 starts
+2024-04-03 16:38:53,437 - INFO - Using device: cuda:4
+2024-04-03 16:42:51,429 - INFO - Using device: cuda:4
+2024-04-03 16:44:44,461 - INFO - Using device: cuda
+2024-04-03 16:56:31,433 - INFO - Using device: cuda
+2024-04-03 16:56:33,756 - INFO - training start!
+2024-04-03 16:56:33,758 - INFO - epoch 0 starts
+2024-04-03 16:56:41,362 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:56:44,577 - INFO - checking point saving at epoch 0
+2024-04-03 16:56:44,578 - INFO - Epoch 0:
+2024-04-03 16:56:44,578 - INFO -  Training Loss: 0.0002, Training Accuracy: 62.50%
+2024-04-03 16:56:44,578 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 75.00%
+2024-04-03 16:56:44,578 - INFO - epoch 1 starts
+2024-04-03 16:56:47,140 - INFO - valid starts for epoch 1 starts
+2024-04-03 16:56:48,367 - INFO - Epoch 1:
+2024-04-03 16:56:48,368 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 16:56:48,368 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 50.00%
+2024-04-03 16:56:48,368 - INFO - epoch 2 starts
+2024-04-03 16:56:51,146 - INFO - valid starts for epoch 2 starts
+2024-04-03 16:56:52,348 - INFO - Epoch 2:
+2024-04-03 16:56:52,348 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 16:56:52,348 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 68.75%
+2024-04-03 16:56:52,348 - INFO - epoch 3 starts
+2024-04-03 16:56:54,932 - INFO - valid starts for epoch 3 starts
+2024-04-03 16:56:58,105 - INFO - checking point saving at epoch 3
+2024-04-03 16:56:58,105 - INFO - Epoch 3:
+2024-04-03 16:56:58,105 - INFO -  Training Loss: 0.0001, Training Accuracy: 43.75%
+2024-04-03 16:56:58,105 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 62.50%
+2024-04-03 16:56:58,105 - INFO - epoch 4 starts
+2024-04-03 16:57:00,665 - INFO - valid starts for epoch 4 starts
+2024-04-03 16:57:01,757 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:57:01,757 - INFO - Epoch 4:
+2024-04-03 16:57:01,757 - INFO -  Training Loss: 0.0001, Training Accuracy: 81.25%
+2024-04-03 16:57:01,757 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 43.75%
+2024-04-03 16:57:01,757 - INFO - epoch 5 starts
+2024-04-03 16:57:04,259 - INFO - valid starts for epoch 5 starts
+2024-04-03 16:57:05,488 - INFO - Epoch 5:
+2024-04-03 16:57:05,488 - INFO -  Training Loss: 0.0002, Training Accuracy: 37.50%
+2024-04-03 16:57:05,488 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 56.25%
+2024-04-03 16:57:05,488 - INFO - epoch 6 starts
+2024-04-03 16:57:07,941 - INFO - valid starts for epoch 6 starts
+2024-04-03 16:57:09,030 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:57:12,179 - INFO - checking point saving at epoch 6
+2024-04-03 16:57:12,180 - INFO - Epoch 6:
+2024-04-03 16:57:12,180 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-03 16:57:12,180 - INFO -  Validation Loss: 0.0014, Validation Accuracy: 25.00%
+2024-04-03 16:57:12,180 - INFO - epoch 7 starts
+2024-04-03 16:57:14,928 - INFO - valid starts for epoch 7 starts
+2024-04-03 16:57:16,338 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:57:16,338 - INFO - Epoch 7:
+2024-04-03 16:57:16,338 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 16:57:16,338 - INFO -  Validation Loss: 0.0013, Validation Accuracy: 37.50%
+2024-04-03 16:57:16,339 - INFO - epoch 8 starts
+2024-04-03 16:57:19,220 - INFO - valid starts for epoch 8 starts
+2024-04-03 16:57:20,393 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 16:57:20,393 - INFO - Epoch 8:
+2024-04-03 16:57:20,393 - INFO -  Training Loss: 0.0002, Training Accuracy: 68.75%
+2024-04-03 16:57:20,393 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 50.00%
+2024-04-03 16:57:20,393 - INFO - epoch 9 starts
+2024-04-03 16:57:22,905 - INFO - valid starts for epoch 9 starts
+2024-04-03 16:57:26,563 - INFO - checking point saving at epoch 9
+2024-04-03 16:57:26,563 - INFO - Epoch 9:
+2024-04-03 16:57:26,563 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-03 16:57:26,564 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 68.75%
+2024-04-03 16:57:26,564 - INFO - epoch 10 starts
+2024-04-03 16:57:29,079 - INFO - valid starts for epoch 10 starts
+2024-04-03 16:57:30,198 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:57:30,198 - INFO - Epoch 10:
+2024-04-03 16:57:30,198 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-03 16:57:30,198 - INFO -  Validation Loss: 0.0008, Validation Accuracy: 56.25%
+2024-04-03 16:57:30,198 - INFO - epoch 11 starts
+2024-04-03 16:57:32,923 - INFO - valid starts for epoch 11 starts
+2024-04-03 16:57:34,151 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:57:34,151 - INFO - Epoch 11:
+2024-04-03 16:57:34,151 - INFO -  Training Loss: 0.0002, Training Accuracy: 62.50%
+2024-04-03 16:57:34,151 - INFO -  Validation Loss: 0.0009, Validation Accuracy: 50.00%
+2024-04-03 16:57:34,151 - INFO - epoch 12 starts
+2024-04-03 16:57:58,433 - INFO - Using device: cuda
+2024-04-03 16:58:00,877 - INFO - training start!
+2024-04-03 16:58:00,878 - INFO - epoch 0 starts
+2024-04-03 16:58:10,527 - INFO - valid starts for epoch 0 starts
+2024-04-03 16:58:15,450 - INFO - checking point saving at epoch 0
+2024-04-03 16:58:15,451 - INFO - Epoch 0:
+2024-04-03 16:58:15,451 - INFO -  Training Loss: 0.0003, Training Accuracy: 59.38%
+2024-04-03 16:58:15,451 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 40.62%
+2024-04-03 16:58:15,451 - INFO - epoch 1 starts
+2024-04-03 16:58:20,143 - INFO - valid starts for epoch 1 starts
+2024-04-03 16:58:22,414 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:58:22,414 - INFO - Epoch 1:
+2024-04-03 16:58:22,414 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 16:58:22,414 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 53.12%
+2024-04-03 16:58:22,414 - INFO - epoch 2 starts
+2024-04-03 16:58:26,970 - INFO - valid starts for epoch 2 starts
+2024-04-03 16:58:29,265 - INFO - Epoch 2:
+2024-04-03 16:58:29,266 - INFO -  Training Loss: 0.0003, Training Accuracy: 43.75%
+2024-04-03 16:58:29,266 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 53.12%
+2024-04-03 16:58:29,266 - INFO - epoch 3 starts
+2024-04-03 16:58:33,813 - INFO - valid starts for epoch 3 starts
+2024-04-03 16:58:38,847 - INFO - checking point saving at epoch 3
+2024-04-03 16:58:38,848 - INFO - Epoch 3:
+2024-04-03 16:58:38,848 - INFO -  Training Loss: 0.0003, Training Accuracy: 43.75%
+2024-04-03 16:58:38,848 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 53.12%
+2024-04-03 16:58:38,848 - INFO - epoch 4 starts
+2024-04-03 16:58:43,517 - INFO - valid starts for epoch 4 starts
+2024-04-03 16:58:45,719 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:58:45,720 - INFO - Epoch 4:
+2024-04-03 16:58:45,720 - INFO -  Training Loss: 0.0002, Training Accuracy: 46.88%
+2024-04-03 16:58:45,720 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 46.88%
+2024-04-03 16:58:45,720 - INFO - epoch 5 starts
+2024-04-03 16:58:50,455 - INFO - valid starts for epoch 5 starts
+2024-04-03 16:58:52,896 - INFO - Epoch 5:
+2024-04-03 16:58:52,896 - INFO -  Training Loss: 0.0002, Training Accuracy: 43.75%
+2024-04-03 16:58:52,896 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 62.50%
+2024-04-03 16:58:52,896 - INFO - epoch 6 starts
+2024-04-03 16:58:57,484 - INFO - valid starts for epoch 6 starts
+2024-04-03 16:58:59,757 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:59:03,935 - INFO - checking point saving at epoch 6
+2024-04-03 16:59:03,936 - INFO - Epoch 6:
+2024-04-03 16:59:03,936 - INFO -  Training Loss: 0.0003, Training Accuracy: 43.75%
+2024-04-03 16:59:03,936 - INFO -  Validation Loss: 0.0031, Validation Accuracy: 37.50%
+2024-04-03 16:59:03,936 - INFO - epoch 7 starts
+2024-04-03 16:59:08,534 - INFO - valid starts for epoch 7 starts
+2024-04-03 16:59:10,929 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:59:10,929 - INFO - Epoch 7:
+2024-04-03 16:59:10,929 - INFO -  Training Loss: 0.0002, Training Accuracy: 46.88%
+2024-04-03 16:59:10,929 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 56.25%
+2024-04-03 16:59:10,929 - INFO - epoch 8 starts
+2024-04-03 16:59:15,479 - INFO - valid starts for epoch 8 starts
+2024-04-03 16:59:17,792 - INFO - Epoch 8:
+2024-04-03 16:59:17,792 - INFO -  Training Loss: 0.0003, Training Accuracy: 46.88%
+2024-04-03 16:59:17,792 - INFO -  Validation Loss: 0.0015, Validation Accuracy: 68.75%
+2024-04-03 16:59:17,792 - INFO - epoch 9 starts
+2024-04-03 16:59:22,529 - INFO - valid starts for epoch 9 starts
+2024-04-03 16:59:24,866 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 16:59:27,655 - INFO - checking point saving at epoch 9
+2024-04-03 16:59:27,655 - INFO - Epoch 9:
+2024-04-03 16:59:27,655 - INFO -  Training Loss: 0.0002, Training Accuracy: 46.88%
+2024-04-03 16:59:27,655 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 50.00%
+2024-04-03 16:59:27,656 - INFO - epoch 10 starts
+2024-04-03 16:59:33,011 - INFO - valid starts for epoch 10 starts
+2024-04-03 16:59:35,528 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 16:59:35,528 - INFO - Epoch 10:
+2024-04-03 16:59:35,528 - INFO -  Training Loss: 0.0002, Training Accuracy: 56.25%
+2024-04-03 16:59:35,528 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 43.75%
+2024-04-03 16:59:35,528 - INFO - epoch 11 starts
+2024-04-03 16:59:40,087 - INFO - valid starts for epoch 11 starts
+2024-04-03 16:59:42,298 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 16:59:42,298 - INFO - Epoch 11:
+2024-04-03 16:59:42,298 - INFO -  Training Loss: 0.0002, Training Accuracy: 65.62%
+2024-04-03 16:59:42,299 - INFO -  Validation Loss: 0.0027, Validation Accuracy: 40.62%
+2024-04-03 16:59:42,299 - INFO - epoch 12 starts
+2024-04-03 16:59:46,914 - INFO - valid starts for epoch 12 starts
+2024-04-03 16:59:49,148 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-03 16:59:51,865 - INFO - checking point saving at epoch 12
+2024-04-03 16:59:51,865 - INFO - Epoch 12:
+2024-04-03 16:59:51,866 - INFO -  Training Loss: 0.0003, Training Accuracy: 53.12%
+2024-04-03 16:59:51,866 - INFO -  Validation Loss: 0.0024, Validation Accuracy: 53.12%
+2024-04-03 16:59:51,866 - INFO - epoch 13 starts
+2024-04-03 16:59:56,634 - INFO - valid starts for epoch 13 starts
+2024-04-03 16:59:58,887 - INFO - Validation loss did not improve for 5/5 epochs.
+2024-04-03 16:59:58,888 - INFO - Early stopping triggered.
+2024-04-03 17:00:00,026 - INFO - Plots saved: ./2024-04-03_16-58-00/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_16-58-00/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 17:06:38,509 - INFO - Using device: cuda
+2024-04-03 17:06:40,891 - INFO - training start!
+2024-04-03 17:06:40,892 - INFO - epoch 0 starts
+2024-04-03 17:06:50,559 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:07:00,402 - INFO - checking point saving at epoch 0
+2024-04-03 17:07:00,402 - INFO - Epoch 0:
+2024-04-03 17:07:00,402 - INFO -  Training Loss: 0.0003, Training Accuracy: 53.12%
+2024-04-03 17:07:00,402 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 62.50%
+2024-04-03 17:07:00,403 - INFO - epoch 1 starts
+2024-04-03 17:07:06,437 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:07:08,557 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:07:08,558 - INFO - Epoch 1:
+2024-04-03 17:07:08,558 - INFO -  Training Loss: 0.0003, Training Accuracy: 53.12%
+2024-04-03 17:07:08,558 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 56.25%
+2024-04-03 17:07:08,558 - INFO - epoch 2 starts
+2024-04-03 17:07:13,112 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:07:15,191 - INFO - Epoch 2:
+2024-04-03 17:07:15,192 - INFO -  Training Loss: 0.0002, Training Accuracy: 53.12%
+2024-04-03 17:07:15,192 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 56.25%
+2024-04-03 17:07:15,192 - INFO - epoch 3 starts
+2024-04-03 17:07:19,877 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:07:22,023 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:07:27,334 - INFO - checking point saving at epoch 3
+2024-04-03 17:07:27,334 - INFO - Epoch 3:
+2024-04-03 17:07:27,334 - INFO -  Training Loss: 0.0002, Training Accuracy: 59.38%
+2024-04-03 17:07:27,334 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 40.62%
+2024-04-03 17:07:27,335 - INFO - epoch 4 starts
+2024-04-03 17:07:31,860 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:07:34,323 - INFO - Epoch 4:
+2024-04-03 17:07:34,323 - INFO -  Training Loss: 0.0002, Training Accuracy: 43.75%
+2024-04-03 17:07:34,323 - INFO -  Validation Loss: 0.0014, Validation Accuracy: 50.00%
+2024-04-03 17:07:34,324 - INFO - epoch 5 starts
+2024-04-03 17:07:39,204 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:07:41,999 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:07:41,999 - INFO - Epoch 5:
+2024-04-03 17:07:41,999 - INFO -  Training Loss: 0.0003, Training Accuracy: 62.50%
+2024-04-03 17:07:41,999 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 50.00%
+2024-04-03 17:07:42,000 - INFO - epoch 6 starts
+2024-04-03 17:07:46,369 - INFO - valid starts for epoch 6 starts
+2024-04-03 17:07:48,641 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 17:07:51,795 - INFO - checking point saving at epoch 6
+2024-04-03 17:07:51,795 - INFO - Epoch 6:
+2024-04-03 17:07:51,795 - INFO -  Training Loss: 0.0003, Training Accuracy: 37.50%
+2024-04-03 17:07:51,795 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 53.12%
+2024-04-03 17:07:51,795 - INFO - epoch 7 starts
+2024-04-03 17:07:56,279 - INFO - valid starts for epoch 7 starts
+2024-04-03 17:07:58,529 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-03 17:07:58,529 - INFO - Epoch 7:
+2024-04-03 17:07:58,530 - INFO -  Training Loss: 0.0003, Training Accuracy: 59.38%
+2024-04-03 17:07:58,530 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 50.00%
+2024-04-03 17:07:58,530 - INFO - epoch 8 starts
+2024-04-03 17:08:03,199 - INFO - valid starts for epoch 8 starts
+2024-04-03 17:08:05,308 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-03 17:08:05,308 - INFO - Epoch 8:
+2024-04-03 17:08:05,308 - INFO -  Training Loss: 0.0003, Training Accuracy: 53.12%
+2024-04-03 17:08:05,308 - INFO -  Validation Loss: 0.0016, Validation Accuracy: 62.50%
+2024-04-03 17:08:05,309 - INFO - epoch 9 starts
+2024-04-03 17:08:09,833 - INFO - valid starts for epoch 9 starts
+2024-04-03 17:08:12,121 - INFO - Validation loss did not improve for 5/5 epochs.
+2024-04-03 17:08:33,455 - INFO - Using device: cuda
+2024-04-03 17:09:44,078 - INFO - Using device: cuda
+2024-04-03 17:14:32,877 - INFO - Using device: cuda
+2024-04-03 17:18:47,882 - INFO - Using device: cuda
+2024-04-03 17:18:50,082 - INFO - multiple_GPUs is True
+2024-04-03 17:18:50,082 - INFO - training start!
+2024-04-03 17:18:50,083 - INFO - epoch 0 starts
+2024-04-03 17:19:01,770 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:19:11,778 - INFO - checking point saving at epoch 0
+2024-04-03 17:19:11,778 - INFO - Epoch 0:
+2024-04-03 17:19:11,778 - INFO -  Training Loss: 0.0004, Training Accuracy: 57.50%
+2024-04-03 17:19:11,778 - INFO -  Validation Loss: 0.0025, Validation Accuracy: 57.50%
+2024-04-03 17:19:11,779 - INFO - epoch 1 starts
+2024-04-03 17:19:18,736 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:19:21,980 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:19:21,980 - INFO - Epoch 1:
+2024-04-03 17:19:21,980 - INFO -  Training Loss: 0.0003, Training Accuracy: 60.00%
+2024-04-03 17:19:21,980 - INFO -  Validation Loss: 0.0026, Validation Accuracy: 40.00%
+2024-04-03 17:19:21,981 - INFO - epoch 2 starts
+2024-04-03 17:19:28,881 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:19:31,642 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 17:19:31,642 - INFO - Epoch 2:
+2024-04-03 17:19:31,642 - INFO -  Training Loss: 0.0004, Training Accuracy: 45.00%
+2024-04-03 17:19:31,642 - INFO -  Validation Loss: 0.0028, Validation Accuracy: 37.50%
+2024-04-03 17:19:31,643 - INFO - epoch 3 starts
+2024-04-03 17:19:38,314 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:20:51,868 - INFO - checking point saving at epoch 3
+2024-04-03 17:20:51,908 - INFO - Epoch 3:
+2024-04-03 17:20:51,909 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:20:53,651 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 55.00%
+2024-04-03 17:20:53,673 - INFO - epoch 4 starts
+2024-04-03 17:21:00,341 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:21:02,968 - INFO - Epoch 4:
+2024-04-03 17:21:02,968 - INFO -  Training Loss: 0.0003, Training Accuracy: 40.00%
+2024-04-03 17:21:02,986 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 57.50%
+2024-04-03 17:21:03,001 - INFO - epoch 5 starts
+2024-04-03 17:21:09,447 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:21:11,654 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:21:11,654 - INFO - Epoch 5:
+2024-04-03 17:21:11,681 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:21:11,697 - INFO -  Validation Loss: 0.0024, Validation Accuracy: 60.00%
+2024-04-03 17:21:13,616 - INFO - epoch 6 starts
+2024-04-03 17:21:20,133 - INFO - valid starts for epoch 6 starts
+2024-04-03 17:21:22,588 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 17:22:50,175 - INFO - Using device: cuda
+2024-04-03 17:22:52,269 - INFO - multiple_GPUs is True
+2024-04-03 17:22:52,269 - INFO - training start!
+2024-04-03 17:22:52,270 - INFO - epoch 0 starts
+2024-04-03 17:23:02,722 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:23:44,694 - INFO - checking point saving at epoch 0
+2024-04-03 17:23:44,694 - INFO - Epoch 0:
+2024-04-03 17:23:44,694 - INFO -  Training Loss: 0.0004, Training Accuracy: 42.50%
+2024-04-03 17:23:44,695 - INFO -  Validation Loss: 0.0024, Validation Accuracy: 60.00%
+2024-04-03 17:23:44,695 - INFO - epoch 1 starts
+2024-04-03 17:23:50,378 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:23:53,276 - INFO - Validation loss did not improve for 1/8 epochs.
+2024-04-03 17:23:53,276 - INFO - Epoch 1:
+2024-04-03 17:23:53,276 - INFO -  Training Loss: 0.0003, Training Accuracy: 60.00%
+2024-04-03 17:23:53,276 - INFO -  Validation Loss: 0.0025, Validation Accuracy: 50.00%
+2024-04-03 17:23:53,277 - INFO - epoch 2 starts
+2024-04-03 17:23:58,665 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:24:01,367 - INFO - Validation loss did not improve for 2/8 epochs.
+2024-04-03 17:24:01,367 - INFO - Epoch 2:
+2024-04-03 17:24:01,367 - INFO -  Training Loss: 0.0003, Training Accuracy: 40.00%
+2024-04-03 17:24:01,367 - INFO -  Validation Loss: 0.0025, Validation Accuracy: 50.00%
+2024-04-03 17:24:01,368 - INFO - epoch 3 starts
+2024-04-03 17:24:06,722 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:24:09,825 - INFO - Validation loss did not improve for 3/8 epochs.
+2024-04-03 17:24:11,555 - INFO - checking point saving at epoch 3
+2024-04-03 17:24:11,556 - INFO - Epoch 3:
+2024-04-03 17:24:11,556 - INFO -  Training Loss: 0.0003, Training Accuracy: 42.50%
+2024-04-03 17:24:11,556 - INFO -  Validation Loss: 0.0033, Validation Accuracy: 50.00%
+2024-04-03 17:24:11,556 - INFO - epoch 4 starts
+2024-04-03 17:24:16,936 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:24:19,667 - INFO - Validation loss did not improve for 4/8 epochs.
+2024-04-03 17:24:19,668 - INFO - Epoch 4:
+2024-04-03 17:24:19,668 - INFO -  Training Loss: 0.0003, Training Accuracy: 55.00%
+2024-04-03 17:24:19,668 - INFO -  Validation Loss: 0.0040, Validation Accuracy: 55.00%
+2024-04-03 17:24:19,668 - INFO - epoch 5 starts
+2024-04-03 17:24:25,462 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:24:28,054 - INFO - Validation loss did not improve for 5/8 epochs.
+2024-04-03 17:24:28,054 - INFO - Epoch 5:
+2024-04-03 17:24:28,054 - INFO -  Training Loss: 0.0003, Training Accuracy: 45.00%
+2024-04-03 17:24:28,054 - INFO -  Validation Loss: 0.0047, Validation Accuracy: 47.50%
+2024-04-03 17:24:28,055 - INFO - epoch 6 starts
+2024-04-03 17:24:33,535 - INFO - valid starts for epoch 6 starts
+2024-04-03 17:24:38,204 - INFO - checking point saving at epoch 6
+2024-04-03 17:24:38,204 - INFO - Epoch 6:
+2024-04-03 17:24:38,204 - INFO -  Training Loss: 0.0003, Training Accuracy: 52.50%
+2024-04-03 17:24:38,204 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 52.50%
+2024-04-03 17:24:38,205 - INFO - epoch 7 starts
+2024-04-03 17:24:43,960 - INFO - valid starts for epoch 7 starts
+2024-04-03 17:24:46,844 - INFO - Epoch 7:
+2024-04-03 17:24:46,844 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:24:46,845 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 60.00%
+2024-04-03 17:24:46,845 - INFO - epoch 8 starts
+2024-04-03 17:24:52,415 - INFO - valid starts for epoch 8 starts
+2024-04-03 17:24:55,170 - INFO - Validation loss did not improve for 1/8 epochs.
+2024-04-03 17:24:55,171 - INFO - Epoch 8:
+2024-04-03 17:24:55,171 - INFO -  Training Loss: 0.0003, Training Accuracy: 42.50%
+2024-04-03 17:24:55,171 - INFO -  Validation Loss: 0.0026, Validation Accuracy: 40.00%
+2024-04-03 17:24:55,171 - INFO - epoch 9 starts
+2024-04-03 17:25:00,749 - INFO - valid starts for epoch 9 starts
+2024-04-03 17:25:03,519 - INFO - Validation loss did not improve for 2/8 epochs.
+2024-04-03 17:25:09,116 - INFO - checking point saving at epoch 9
+2024-04-03 17:25:09,117 - INFO - Epoch 9:
+2024-04-03 17:25:09,117 - INFO -  Training Loss: 0.0003, Training Accuracy: 52.50%
+2024-04-03 17:25:09,117 - INFO -  Validation Loss: 0.0029, Validation Accuracy: 40.00%
+2024-04-03 17:25:09,118 - INFO - epoch 10 starts
+2024-04-03 17:25:15,038 - INFO - valid starts for epoch 10 starts
+2024-04-03 17:25:17,713 - INFO - Validation loss did not improve for 3/8 epochs.
+2024-04-03 17:25:17,713 - INFO - Epoch 10:
+2024-04-03 17:25:17,713 - INFO -  Training Loss: 0.0003, Training Accuracy: 45.00%
+2024-04-03 17:25:17,713 - INFO -  Validation Loss: 0.0022, Validation Accuracy: 52.50%
+2024-04-03 17:25:17,714 - INFO - epoch 11 starts
+2024-04-03 17:25:23,223 - INFO - valid starts for epoch 11 starts
+2024-04-03 17:25:26,011 - INFO - Validation loss did not improve for 4/8 epochs.
+2024-04-03 17:25:26,011 - INFO - Epoch 11:
+2024-04-03 17:25:26,011 - INFO -  Training Loss: 0.0003, Training Accuracy: 57.50%
+2024-04-03 17:25:26,011 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 47.50%
+2024-04-03 17:25:26,012 - INFO - epoch 12 starts
+2024-04-03 17:25:31,879 - INFO - valid starts for epoch 12 starts
+2024-04-03 17:25:51,145 - INFO - Using device: cuda
+2024-04-03 17:34:24,251 - INFO - Using device: cuda
+2024-04-03 17:35:26,553 - INFO - Using device: cuda
+2024-04-03 17:39:07,252 - INFO - Using device: cuda
+2024-04-03 17:40:40,749 - INFO - Using device: cuda
+2024-04-03 17:40:43,330 - INFO - multiple_GPUs is True
+2024-04-03 17:40:43,330 - INFO - training start!
+2024-04-03 17:40:43,331 - INFO - epoch 0 starts
+2024-04-03 17:40:52,860 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:45:19,931 - INFO - Using device: cuda
+2024-04-03 17:45:22,015 - INFO - multiple_GPUs is True
+2024-04-03 17:45:22,015 - INFO - training start!
+2024-04-03 17:45:22,017 - INFO - epoch 0 starts
+2024-04-03 17:45:31,671 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:45:36,471 - INFO - checking point saving at epoch 0
+2024-04-03 17:45:36,471 - INFO - Epoch 0:
+2024-04-03 17:45:36,471 - INFO -  Training Loss: 0.0003, Training Accuracy: 56.25%
+2024-04-03 17:45:36,471 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 59.38%
+2024-04-03 17:45:36,472 - INFO - epoch 1 starts
+2024-04-03 17:45:43,844 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:45:46,641 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:45:46,641 - INFO - Epoch 1:
+2024-04-03 17:45:46,641 - INFO -  Training Loss: 0.0003, Training Accuracy: 62.50%
+2024-04-03 17:45:46,641 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 34.38%
+2024-04-03 17:45:46,641 - INFO - epoch 2 starts
+2024-04-03 17:45:53,908 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:45:56,786 - INFO - Epoch 2:
+2024-04-03 17:45:56,786 - INFO -  Training Loss: 0.0002, Training Accuracy: 65.62%
+2024-04-03 17:45:56,786 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 62.50%
+2024-04-03 17:45:56,787 - INFO - epoch 3 starts
+2024-04-03 17:46:03,907 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:46:08,625 - INFO - checking point saving at epoch 3
+2024-04-03 17:46:08,625 - INFO - Epoch 3:
+2024-04-03 17:46:08,625 - INFO -  Training Loss: 0.0003, Training Accuracy: 56.25%
+2024-04-03 17:46:08,625 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 53.12%
+2024-04-03 17:46:08,625 - INFO - epoch 4 starts
+2024-04-03 17:46:39,594 - INFO - Using device: cuda
+2024-04-03 17:47:04,142 - INFO - Using device: cuda
+2024-04-03 17:47:06,403 - INFO - multiple_GPUs is True
+2024-04-03 17:47:06,403 - INFO - training start!
+2024-04-03 17:47:06,405 - INFO - epoch 0 starts
+2024-04-03 17:47:16,072 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:47:22,190 - INFO - checking point saving at epoch 0
+2024-04-03 17:47:22,191 - INFO - Epoch 0:
+2024-04-03 17:47:22,191 - INFO -  Training Loss: 0.0003, Training Accuracy: 56.25%
+2024-04-03 17:47:22,191 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 43.75%
+2024-04-03 17:47:22,191 - INFO - epoch 1 starts
+2024-04-03 17:47:29,554 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:47:32,580 - INFO - Epoch 1:
+2024-04-03 17:47:32,580 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 17:47:32,581 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 40.62%
+2024-04-03 17:47:32,581 - INFO - epoch 2 starts
+2024-04-03 17:47:39,706 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:47:42,677 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:47:42,677 - INFO - Epoch 2:
+2024-04-03 17:47:42,677 - INFO -  Training Loss: 0.0003, Training Accuracy: 40.62%
+2024-04-03 17:47:42,677 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 46.88%
+2024-04-03 17:47:42,677 - INFO - epoch 3 starts
+2024-04-03 17:47:49,864 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:47:55,482 - INFO - checking point saving at epoch 3
+2024-04-03 17:47:55,483 - INFO - Epoch 3:
+2024-04-03 17:47:55,483 - INFO -  Training Loss: 0.0003, Training Accuracy: 62.50%
+2024-04-03 17:47:55,483 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 62.50%
+2024-04-03 17:47:55,483 - INFO - epoch 4 starts
+2024-04-03 17:48:02,807 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:48:05,680 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:48:05,681 - INFO - Epoch 4:
+2024-04-03 17:48:05,681 - INFO -  Training Loss: 0.0003, Training Accuracy: 43.75%
+2024-04-03 17:48:05,681 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 31.25%
+2024-04-03 17:48:05,681 - INFO - epoch 5 starts
+2024-04-03 17:48:13,103 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:48:16,133 - INFO - Epoch 5:
+2024-04-03 17:48:16,133 - INFO -  Training Loss: 0.0003, Training Accuracy: 43.75%
+2024-04-03 17:48:16,133 - INFO -  Validation Loss: 0.0016, Validation Accuracy: 43.75%
+2024-04-03 17:48:41,993 - INFO - Using device: cuda
+2024-04-03 17:48:44,488 - INFO - multiple_GPUs is True
+2024-04-03 17:48:44,488 - INFO - training start!
+2024-04-03 17:48:44,489 - INFO - epoch 0 starts
+2024-04-03 17:48:53,956 - INFO - valid starts for epoch 0 starts
+2024-04-03 17:48:58,668 - INFO - checking point saving at epoch 0
+2024-04-03 17:48:58,668 - INFO - Epoch 0:
+2024-04-03 17:48:58,668 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:48:58,668 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 50.00%
+2024-04-03 17:48:58,668 - INFO - epoch 1 starts
+2024-04-03 17:49:03,033 - INFO - valid starts for epoch 1 starts
+2024-04-03 17:49:05,111 - INFO - Epoch 1:
+2024-04-03 17:49:05,112 - INFO -  Training Loss: 0.0002, Training Accuracy: 37.50%
+2024-04-03 17:49:05,112 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 43.75%
+2024-04-03 17:49:05,112 - INFO - epoch 2 starts
+2024-04-03 17:49:09,485 - INFO - valid starts for epoch 2 starts
+2024-04-03 17:49:11,580 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:49:11,581 - INFO - Epoch 2:
+2024-04-03 17:49:11,581 - INFO -  Training Loss: 0.0002, Training Accuracy: 37.50%
+2024-04-03 17:49:11,581 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 28.12%
+2024-04-03 17:49:11,581 - INFO - epoch 3 starts
+2024-04-03 17:49:16,363 - INFO - valid starts for epoch 3 starts
+2024-04-03 17:49:18,408 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-03 17:49:21,158 - INFO - checking point saving at epoch 3
+2024-04-03 17:49:21,158 - INFO - Epoch 3:
+2024-04-03 17:49:21,159 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:49:21,159 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 37.50%
+2024-04-03 17:49:21,159 - INFO - epoch 4 starts
+2024-04-03 17:49:26,142 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:49:28,366 - INFO - Epoch 4:
+2024-04-03 17:49:28,366 - INFO -  Training Loss: 0.0002, Training Accuracy: 65.62%
+2024-04-03 17:49:28,366 - INFO -  Validation Loss: 0.0018, Validation Accuracy: 53.12%
+2024-04-03 17:49:28,367 - INFO - epoch 5 starts
+2024-04-03 17:49:33,085 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:49:35,179 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-03 17:49:35,179 - INFO - Epoch 5:
+2024-04-03 17:49:35,179 - INFO -  Training Loss: 0.0002, Training Accuracy: 43.75%
+2024-04-03 17:49:35,179 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 40.62%
+2024-04-03 17:49:35,671 - INFO - Plots saved: ./2024-04-03_17-48-44/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_17-48-44/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 17:51:38,060 - INFO - Using device: cuda
+2024-04-03 17:51:40,661 - INFO - multiple_GPUs is True
+2024-04-03 17:51:40,661 - INFO - training start!
+2024-04-03 17:51:40,663 - INFO - epoch 4 starts
+2024-04-03 17:51:50,575 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:51:52,689 - INFO - Epoch 4:
+2024-04-03 17:51:52,689 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-03 17:51:52,689 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 40.62%
+2024-04-03 17:51:52,690 - INFO - epoch 5 starts
+2024-04-03 17:52:13,394 - INFO - Using device: cuda
+2024-04-03 17:52:16,037 - INFO - multiple_GPUs is True
+2024-04-03 17:52:16,037 - INFO - training start!
+2024-04-03 17:52:16,039 - INFO - epoch 4 starts
+2024-04-03 17:52:25,740 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:52:27,831 - INFO - Epoch 4:
+2024-04-03 17:52:27,831 - INFO -  Training Loss: 0.0003, Training Accuracy: 37.50%
+2024-04-03 17:52:27,831 - INFO -  Validation Loss: 0.0016, Validation Accuracy: 43.75%
+2024-04-03 17:52:27,831 - INFO - epoch 5 starts
+2024-04-03 17:52:32,480 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:52:34,733 - INFO - Epoch 5:
+2024-04-03 17:52:34,733 - INFO -  Training Loss: 0.0002, Training Accuracy: 56.25%
+2024-04-03 17:52:34,733 - INFO -  Validation Loss: 0.0016, Validation Accuracy: 53.12%
+2024-04-03 17:55:58,698 - INFO - Using device: cuda
+2024-04-03 17:56:01,429 - INFO - multiple_GPUs is True
+2024-04-03 17:56:01,430 - INFO - training start!
+2024-04-03 17:56:01,431 - INFO - epoch 4 starts
+2024-04-03 17:56:11,201 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:56:13,213 - INFO - Epoch 4:
+2024-04-03 17:56:13,213 - INFO -  Training Loss: 0.0002, Training Accuracy: 50.00%
+2024-04-03 17:56:13,213 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 50.00%
+2024-04-03 17:56:13,214 - INFO - epoch 5 starts
+2024-04-03 17:56:17,704 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:56:19,920 - INFO - Epoch 5:
+2024-04-03 17:56:19,920 - INFO -  Training Loss: 0.0003, Training Accuracy: 56.25%
+2024-04-03 17:56:19,920 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 46.88%
+2024-04-03 17:56:48,286 - INFO - Using device: cuda
+2024-04-03 17:56:50,456 - INFO - multiple_GPUs is True
+2024-04-03 17:56:50,456 - INFO - training start!
+2024-04-03 17:56:50,457 - INFO - epoch 0 starts
+2024-04-03 17:57:00,920 - INFO - Using device: cuda
+2024-04-03 17:57:03,653 - INFO - multiple_GPUs is True
+2024-04-03 17:57:03,654 - INFO - training start!
+2024-04-03 17:57:03,655 - INFO - epoch 4 starts
+2024-04-03 17:57:13,301 - INFO - valid starts for epoch 4 starts
+2024-04-03 17:57:15,509 - INFO - Epoch 4:
+2024-04-03 17:57:15,510 - INFO -  Training Loss: 0.0003, Training Accuracy: 40.62%
+2024-04-03 17:57:15,510 - INFO -  Validation Loss: 0.0015, Validation Accuracy: 59.38%
+2024-04-03 17:57:15,510 - INFO - epoch 5 starts
+2024-04-03 17:57:20,034 - INFO - valid starts for epoch 5 starts
+2024-04-03 17:57:22,249 - INFO - Epoch 5:
+2024-04-03 17:57:22,249 - INFO -  Training Loss: 0.0003, Training Accuracy: 40.62%
+2024-04-03 17:57:22,249 - INFO -  Validation Loss: 0.0014, Validation Accuracy: 40.62%
+2024-04-03 17:57:22,839 - INFO - Plots saved: ./2024-04-03_17-48-44/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_17-48-44/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-03 18:18:19,591 - INFO - Using device: cuda
+2024-04-03 18:18:54,433 - INFO - Using device: cuda
+2024-04-03 18:20:43,479 - INFO - Using device: cuda
+2024-04-03 18:20:45,746 - INFO - multiple_GPUs is True
+2024-04-03 18:20:45,746 - INFO - training start!
+2024-04-03 18:20:45,748 - INFO - epoch 0 starts
+2024-04-03 18:23:18,339 - INFO - Using device: cuda
+2024-04-03 18:23:20,848 - INFO - multiple_GPUs is True
+2024-04-03 18:23:20,848 - INFO - training start!
+2024-04-03 18:23:20,849 - INFO - epoch 0 starts
+2024-04-03 21:09:29,843 - INFO - valid starts for epoch 0 starts
+2024-04-03 21:22:27,539 - INFO - checking point saving at epoch 0
+2024-04-03 21:22:27,540 - INFO - Epoch 0:
+2024-04-03 21:22:27,540 - INFO -  Training Loss: 0.4890, Training Accuracy: 51.22%
+2024-04-03 21:22:27,540 - INFO -  Validation Loss: 0.5700, Validation Accuracy: 51.22%
+2024-04-03 21:22:27,540 - INFO - epoch 1 starts
+2024-04-04 00:25:41,507 - INFO - valid starts for epoch 1 starts
+2024-04-04 00:39:56,736 - INFO - Epoch 1:
+2024-04-04 00:39:56,737 - INFO -  Training Loss: 0.4790, Training Accuracy: 51.22%
+2024-04-04 00:39:56,737 - INFO -  Validation Loss: 0.5235, Validation Accuracy: 51.22%
+2024-04-04 00:39:56,737 - INFO - epoch 2 starts
+2024-04-04 03:43:49,837 - INFO - valid starts for epoch 2 starts
+2024-04-04 03:58:43,121 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-04 03:58:43,121 - INFO - Epoch 2:
+2024-04-04 03:58:43,122 - INFO -  Training Loss: 0.4699, Training Accuracy: 51.22%
+2024-04-04 03:58:43,122 - INFO -  Validation Loss: 0.5428, Validation Accuracy: 51.22%
+2024-04-04 03:58:43,122 - INFO - epoch 3 starts
+2024-04-04 07:02:54,171 - INFO - valid starts for epoch 3 starts
+2024-04-04 07:17:20,443 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-04 07:17:27,586 - INFO - checking point saving at epoch 3
+2024-04-04 07:17:27,586 - INFO - Epoch 3:
+2024-04-04 07:17:27,586 - INFO -  Training Loss: 0.4631, Training Accuracy: 51.22%
+2024-04-04 07:17:27,586 - INFO -  Validation Loss: 0.5600, Validation Accuracy: 51.22%
+2024-04-04 07:17:27,586 - INFO - epoch 4 starts
+2024-04-04 10:14:12,065 - INFO - valid starts for epoch 4 starts
+2024-04-04 10:28:43,286 - INFO - Epoch 4:
+2024-04-04 10:28:43,286 - INFO -  Training Loss: 0.4527, Training Accuracy: 51.22%
+2024-04-04 10:28:43,287 - INFO -  Validation Loss: 0.5062, Validation Accuracy: 51.22%
+2024-04-04 10:28:43,287 - INFO - epoch 5 starts
+2024-04-04 13:24:04,220 - INFO - valid starts for epoch 5 starts
+2024-04-04 13:38:33,085 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-04 13:38:33,086 - INFO - Epoch 5:
+2024-04-04 13:38:33,086 - INFO -  Training Loss: 0.4502, Training Accuracy: 51.22%
+2024-04-04 13:38:33,086 - INFO -  Validation Loss: 0.5118, Validation Accuracy: 51.22%
+2024-04-04 13:38:33,086 - INFO - epoch 6 starts
+2024-04-04 16:34:29,309 - INFO - valid starts for epoch 6 starts
+2024-04-04 16:48:55,087 - INFO - checking point saving at epoch 6
+2024-04-04 16:48:55,088 - INFO - Epoch 6:
+2024-04-04 16:48:55,088 - INFO -  Training Loss: 0.4457, Training Accuracy: 51.22%
+2024-04-04 16:48:55,088 - INFO -  Validation Loss: 0.5040, Validation Accuracy: 51.22%
+2024-04-04 16:48:55,088 - INFO - epoch 7 starts
+2024-04-04 19:41:36,453 - INFO - valid starts for epoch 7 starts
+2024-04-04 19:55:34,397 - INFO - Epoch 7:
+2024-04-04 19:55:34,397 - INFO -  Training Loss: 0.4438, Training Accuracy: 51.22%
+2024-04-04 19:55:34,398 - INFO -  Validation Loss: 0.5040, Validation Accuracy: 51.22%
+2024-04-04 19:55:34,398 - INFO - epoch 8 starts
+2024-04-04 22:48:44,803 - INFO - valid starts for epoch 8 starts
+2024-04-04 23:01:56,390 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-04 23:01:56,390 - INFO - Epoch 8:
+2024-04-04 23:01:56,390 - INFO -  Training Loss: 0.4439, Training Accuracy: 51.22%
+2024-04-04 23:01:56,390 - INFO -  Validation Loss: 0.5215, Validation Accuracy: 51.22%
+2024-04-04 23:01:56,390 - INFO - epoch 9 starts
+2024-04-05 01:59:12,530 - INFO - valid starts for epoch 9 starts
+2024-04-05 02:12:25,391 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-05 02:12:27,424 - INFO - checking point saving at epoch 9
+2024-04-05 02:12:27,424 - INFO - Epoch 9:
+2024-04-05 02:12:27,425 - INFO -  Training Loss: 0.4409, Training Accuracy: 51.22%
+2024-04-05 02:12:27,425 - INFO -  Validation Loss: 0.5289, Validation Accuracy: 51.22%
+2024-04-05 02:12:27,425 - INFO - epoch 10 starts
+2024-04-05 02:16:40,635 - INFO - Using device: cuda
+2024-04-05 02:17:22,945 - INFO - Using device: cuda
+2024-04-05 02:17:30,242 - INFO - Testing Starts!
+2024-04-05 02:19:16,594 - INFO - Using device: cuda
+2024-04-05 02:19:23,529 - INFO - Testing Starts!
+2024-04-05 02:22:45,332 - INFO - Using device: cuda
+2024-04-05 02:22:51,995 - INFO - Testing Starts!
+2024-04-05 02:23:02,368 - INFO - Test Accuracy: 0.2625, Precision: 0.5938, Recall: 0.2923, F1 Score: 0.3918
+2024-04-05 02:23:25,190 - INFO - Using device: cuda
+2024-04-05 02:23:31,873 - INFO - Testing Starts!
+2024-04-05 02:23:41,978 - INFO - Test Accuracy: 0.2625, Precision: 0.5938, Recall: 0.2923, F1 Score: 0.3918
+2024-04-05 02:23:42,121 - INFO - Test Loss: 12.4940
+2024-04-05 02:26:30,286 - INFO - Using device: cuda
+2024-04-05 02:26:37,410 - INFO - Testing Starts!
+2024-04-05 02:27:09,921 - INFO - Test Accuracy: 0.3750, Precision: 0.1939, Recall: 0.2923, F1 Score: 0.2331
+2024-04-05 02:27:10,044 - INFO - Test Loss: 10.8612
+2024-04-05 02:27:50,057 - INFO - Using device: cuda
+2024-04-05 02:27:56,865 - INFO - Testing Starts!
+2024-04-05 02:28:23,978 - INFO - Test Accuracy: 0.2625, Precision: 0.5938, Recall: 0.2923, F1 Score: 0.3918
+2024-04-05 02:28:24,179 - INFO - Test Loss: 12.4940
+2024-04-05 02:29:33,852 - INFO - Using device: cuda
+2024-04-05 02:29:40,841 - INFO - Testing Starts!
+2024-04-05 02:33:05,584 - INFO - Using device: cuda
+2024-04-05 02:33:12,487 - INFO - Testing Starts!
+2024-04-05 02:35:16,888 - INFO - Using device: cuda
+2024-04-05 02:35:24,232 - INFO - Testing Starts!
+2024-04-05 02:36:16,640 - INFO - Using device: cuda
+2024-04-05 02:36:23,494 - INFO - Testing Starts!
+2024-04-05 02:53:46,414 - INFO - Using device: cuda
+2024-04-05 02:53:53,318 - INFO - Testing Starts!
+2024-04-05 02:54:44,410 - INFO - Using device: cuda
+2024-04-05 02:54:51,024 - INFO - Testing Starts!
+2024-04-05 02:55:01,112 - INFO - Test Accuracy: 0.9375, Precision: 1.0000, Recall: 0.9375, F1 Score: 0.9677
+2024-04-05 02:55:01,327 - INFO - Test Loss: 0.5202
+2024-04-05 02:57:57,413 - INFO - Using device: cuda
+2024-04-05 02:58:04,111 - INFO - Testing Starts!
+2024-04-05 02:58:13,661 - INFO - Test Accuracy: 0.9375, Precision: 1.0000, Recall: 0.9375, F1 Score: 0.9677
+2024-04-05 02:58:13,852 - INFO - Test Loss: 0.5202
+2024-04-05 02:59:47,358 - INFO - Using device: cuda
+2024-04-05 02:59:54,317 - INFO - Testing Starts!
+2024-04-05 03:00:04,025 - INFO - Test Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1 Score: 1.0000
+2024-04-05 03:00:04,982 - INFO - Test Accuracy: 0.9375, Precision: 1.0000, Recall: 0.9375, F1 Score: 0.9677
+2024-04-05 03:00:05,557 - INFO - Test Accuracy: 0.7917, Precision: 1.0000, Recall: 0.7917, F1 Score: 0.8837
+2024-04-05 03:00:06,284 - INFO - Test Accuracy: 0.5938, Precision: 1.0000, Recall: 0.5938, F1 Score: 0.7451
+2024-04-05 03:00:06,976 - INFO - Test Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:00:07,121 - INFO - Test Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:00:07,507 - INFO - Test Loss: 3.7525
+2024-04-05 03:04:09,373 - INFO - Using device: cuda
+2024-04-05 03:04:56,401 - INFO - Using device: cuda
+2024-04-05 03:06:51,275 - INFO - Using device: cuda
+2024-04-05 03:06:58,363 - INFO - Testing Starts!
+2024-04-05 03:07:08,306 - INFO - Test Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1 Score: 1.0000
+2024-04-05 03:09:18,469 - INFO - Using device: cuda
+2024-04-05 03:09:25,218 - INFO - Testing Starts!
+2024-04-05 03:09:34,486 - INFO - Test Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1 Score: 1.0000
+2024-04-05 03:09:34,727 - INFO - Test Loss: 0.1607
+2024-04-05 03:09:35,256 - INFO - Test Accuracy: 0.9375, Precision: 1.0000, Recall: 0.9375, F1 Score: 0.9677
+2024-04-05 03:09:35,348 - INFO - Test Loss: 0.5202
+2024-04-05 03:09:35,848 - INFO - Test Accuracy: 0.7917, Precision: 1.0000, Recall: 0.7917, F1 Score: 0.8837
+2024-04-05 03:09:35,943 - INFO - Test Loss: 1.2124
+2024-04-05 03:09:36,484 - INFO - Test Accuracy: 0.5938, Precision: 1.0000, Recall: 0.5938, F1 Score: 0.7451
+2024-04-05 03:09:36,594 - INFO - Test Loss: 2.2732
+2024-04-05 03:09:37,179 - INFO - Test Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:09:37,272 - INFO - Test Loss: 3.7525
+2024-04-05 03:09:37,282 - INFO - Test Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:09:37,563 - INFO - Test Loss: 3.7525
+2024-04-05 03:11:53,563 - INFO - Using device: cuda
+2024-04-05 03:12:00,622 - INFO - Testing Starts!
+2024-04-05 03:12:10,970 - INFO - Test Size: 8, Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1 Score: 1.0000
+2024-04-05 03:12:11,263 - INFO - Test Loss: 0.1607
+2024-04-05 03:12:11,745 - INFO - Test Size: 16, Accuracy: 0.9375, Precision: 1.0000, Recall: 0.9375, F1 Score: 0.9677
+2024-04-05 03:12:11,835 - INFO - Test Loss: 0.5202
+2024-04-05 03:12:12,329 - INFO - Test Size: 24, Accuracy: 0.7917, Precision: 1.0000, Recall: 0.7917, F1 Score: 0.8837
+2024-04-05 03:12:12,472 - INFO - Test Loss: 1.2124
+2024-04-05 03:12:12,910 - INFO - Test Size: 32, Accuracy: 0.5938, Precision: 1.0000, Recall: 0.5938, F1 Score: 0.7451
+2024-04-05 03:12:12,998 - INFO - Test Loss: 2.2732
+2024-04-05 03:12:13,450 - INFO - Test Size: 40, Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:12:13,539 - INFO - Test Loss: 3.7525
+2024-04-05 03:12:13,548 - INFO - Test Size: 40, Accuracy: 0.4750, Precision: 1.0000, Recall: 0.4750, F1 Score: 0.6441
+2024-04-05 03:12:13,842 - INFO - Test Loss: 3.7525
+2024-04-05 03:13:56,658 - INFO - Using device: cuda
+2024-04-05 03:14:03,597 - INFO - Testing Starts!
+2024-04-05 03:16:08,904 - INFO - Test Size: 480, Accuracy: 0.4104, Precision: 0.0742, Recall: 0.2923, F1 Score: 0.1184
+2024-04-05 03:16:09,329 - INFO - Test Loss: 4.9996
+2024-04-05 03:17:09,273 - INFO - Using device: cuda
+2024-04-05 03:17:16,227 - INFO - Testing Starts!
+2024-04-05 04:05:41,163 - INFO - Test Size: 12000, Accuracy: 0.8499, Precision: 0.0107, Recall: 0.2836, F1 Score: 0.0207
+2024-04-05 04:05:41,347 - INFO - Test Loss: 41.0865
+2024-04-05 04:56:36,175 - INFO - Test Size: 24000, Accuracy: 0.8781, Precision: 0.0079, Recall: 0.3194, F1 Score: 0.0155
+2024-04-05 04:56:36,292 - INFO - Test Loss: 73.6658
+2024-04-05 05:48:44,694 - INFO - Test Size: 36000, Accuracy: 0.8932, Precision: 0.0540, Recall: 0.6554, F1 Score: 0.0997
+2024-04-05 05:48:44,806 - INFO - Test Loss: 102.8102
+2024-04-05 06:40:40,843 - INFO - Test Size: 48000, Accuracy: 0.8716, Precision: 0.0340, Recall: 0.6554, F1 Score: 0.0647
+2024-04-05 06:40:40,973 - INFO - Test Loss: 152.3196
+2024-04-05 07:17:58,125 - INFO - Using device: cuda
+2024-04-05 07:18:00,561 - INFO - multiple_GPUs is True
+2024-04-05 07:18:00,561 - INFO - training start!
+2024-04-05 07:18:00,563 - INFO - epoch 0 starts
+2024-04-05 07:22:30,102 - INFO - Using device: cuda
+2024-04-05 07:22:32,446 - INFO - multiple_GPUs is True
+2024-04-05 07:22:32,446 - INFO - training start!
+2024-04-05 07:22:32,448 - INFO - epoch 0 starts
+2024-04-05 07:22:46,397 - INFO - valid starts for epoch 0 starts
+2024-04-05 07:24:01,369 - INFO - Using device: cuda
+2024-04-05 07:24:03,712 - INFO - multiple_GPUs is True
+2024-04-05 07:24:03,712 - INFO - training start!
+2024-04-05 07:24:03,713 - INFO - epoch 0 starts
+2024-04-05 07:24:15,555 - INFO - valid starts for epoch 0 starts
+2024-04-05 07:24:19,086 - INFO - checking point saving at epoch 0
+2024-04-05 07:24:19,086 - INFO - Epoch 0:
+2024-04-05 07:24:19,086 - INFO -  Training Loss: 0.0002, Training Accuracy: 62.50%
+2024-04-05 07:24:19,086 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 0.00%
+2024-04-05 07:24:19,086 - INFO - epoch 1 starts
+2024-04-05 07:24:21,714 - INFO - valid starts for epoch 1 starts
+2024-04-05 07:24:22,980 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-05 07:24:22,980 - INFO - Epoch 1:
+2024-04-05 07:24:22,980 - INFO -  Training Loss: 0.0001, Training Accuracy: 68.75%
+2024-04-05 07:24:22,980 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 0.00%
+2024-04-05 07:24:23,547 - INFO - Plots saved: ./2024-04-05_07-24-03/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-05_07-24-03/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-05 07:27:28,750 - INFO - Using device: cuda
+2024-04-05 07:27:31,353 - INFO - multiple_GPUs is True
+2024-04-05 07:27:31,353 - INFO - training start!
+2024-04-05 07:27:31,355 - INFO - epoch 10 starts
+2024-04-05 07:28:40,698 - INFO - Using device: cuda
+2024-04-05 07:28:43,158 - INFO - multiple_GPUs is True
+2024-04-05 07:28:43,158 - INFO - training start!
+2024-04-05 07:28:43,160 - INFO - epoch 10 starts
+2024-04-05 07:29:08,271 - INFO - valid starts for epoch 10 starts
+2024-04-05 07:29:20,719 - INFO - Epoch 10:
+2024-04-05 07:29:20,719 - INFO -  Training Loss: 0.0005, Training Accuracy: 84.38%
+2024-04-05 07:29:20,720 - INFO -  Validation Loss: 0.0034, Validation Accuracy: 0.00%
+2024-04-05 07:29:20,720 - INFO - epoch 11 starts
+2024-04-05 07:29:51,309 - INFO - Using device: cuda
+2024-04-05 07:29:54,026 - INFO - multiple_GPUs is True
+2024-04-05 07:29:54,026 - INFO - training start!
+2024-04-05 07:29:54,027 - INFO - epoch 10 starts
+2024-04-05 10:56:56,989 - INFO - valid starts for epoch 10 starts
+2024-04-05 11:27:14,096 - INFO - Epoch 10:
+2024-04-05 11:27:14,097 - INFO -  Training Loss: 0.4315, Training Accuracy: 81.39%
+2024-04-05 11:27:14,097 - INFO -  Validation Loss: 0.4911, Validation Accuracy: 0.00%
+2024-04-05 11:27:14,097 - INFO - epoch 11 starts
+2024-04-05 15:38:06,625 - INFO - valid starts for epoch 11 starts
+2024-04-05 16:07:50,600 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-05 16:07:50,600 - INFO - Epoch 11:
+2024-04-05 16:07:50,600 - INFO -  Training Loss: 0.4289, Training Accuracy: 81.58%
+2024-04-05 16:07:50,600 - INFO -  Validation Loss: 0.5028, Validation Accuracy: 0.00%
+2024-04-05 16:07:50,600 - INFO - epoch 12 starts
+2024-04-05 19:37:36,660 - INFO - valid starts for epoch 12 starts
+2024-04-05 20:17:40,892 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-05 20:17:42,881 - INFO - checking point saving at epoch 12
+2024-04-05 20:17:42,881 - INFO - Epoch 12:
+2024-04-05 20:17:42,882 - INFO -  Training Loss: 0.4257, Training Accuracy: 81.90%
+2024-04-05 20:17:42,882 - INFO -  Validation Loss: 0.5054, Validation Accuracy: 0.00%
+2024-04-05 20:17:42,882 - INFO - epoch 13 starts
+2024-04-05 23:33:14,005 - INFO - valid starts for epoch 13 starts
+2024-04-05 23:57:46,299 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-05 23:57:46,299 - INFO - Epoch 13:
+2024-04-05 23:57:46,299 - INFO -  Training Loss: 0.4252, Training Accuracy: 81.85%
+2024-04-05 23:57:46,299 - INFO -  Validation Loss: 0.4976, Validation Accuracy: 0.00%
+2024-04-05 23:57:46,299 - INFO - epoch 14 starts
+2024-04-06 03:28:50,743 - INFO - valid starts for epoch 14 starts
+2024-04-06 03:53:54,054 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-06 03:53:54,054 - INFO - Epoch 14:
+2024-04-06 03:53:54,054 - INFO -  Training Loss: 0.4260, Training Accuracy: 81.86%
+2024-04-06 03:53:54,054 - INFO -  Validation Loss: 0.5054, Validation Accuracy: 0.00%
+2024-04-06 03:53:54,054 - INFO - epoch 15 starts
+2024-04-06 07:23:38,739 - INFO - valid starts for epoch 15 starts
+2024-04-06 07:49:24,749 - INFO - Validation loss did not improve for 5/5 epochs.
+2024-04-06 07:49:26,705 - INFO - checking point saving at epoch 15
+2024-04-06 07:49:26,705 - INFO - Early stopping triggered.
+2024-04-06 07:49:28,661 - INFO - Plots saved: ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-06 08:02:46,921 - INFO - Using device: cuda
+2024-04-06 08:02:49,738 - INFO - multiple_GPUs is True
+2024-04-06 08:02:49,738 - INFO - training start!
+2024-04-06 08:02:49,739 - INFO - epoch 16 starts
+2024-04-06 12:38:45,584 - INFO - valid starts for epoch 16 starts
+2024-04-06 13:19:10,268 - INFO - Epoch 16:
+2024-04-06 13:19:10,268 - INFO -  Training Loss: 0.4208, Training Accuracy: 82.04%
+2024-04-06 13:19:10,268 - INFO -  Validation Loss: 0.4892, Validation Accuracy: 0.00%
+2024-04-06 13:19:10,268 - INFO - epoch 17 starts
+2024-04-06 18:13:38,810 - INFO - valid starts for epoch 17 starts
+2024-04-06 18:56:13,599 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-06 18:56:13,599 - INFO - Epoch 17:
+2024-04-06 18:56:13,599 - INFO -  Training Loss: 0.4190, Training Accuracy: 82.02%
+2024-04-06 18:56:13,599 - INFO -  Validation Loss: 0.5130, Validation Accuracy: 0.00%
+2024-04-06 18:56:13,600 - INFO - epoch 18 starts
+2024-04-06 23:45:52,046 - INFO - valid starts for epoch 18 starts
+2024-04-07 00:24:59,390 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-07 00:25:01,367 - INFO - checking point saving at epoch 18
+2024-04-07 00:25:01,367 - INFO - Epoch 18:
+2024-04-07 00:25:01,367 - INFO -  Training Loss: 0.4191, Training Accuracy: 82.07%
+2024-04-07 00:25:01,368 - INFO -  Validation Loss: 0.5066, Validation Accuracy: 0.00%
+2024-04-07 00:25:01,368 - INFO - epoch 19 starts
+2024-04-07 05:30:37,546 - INFO - valid starts for epoch 19 starts
+2024-04-07 06:15:55,296 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-07 06:15:55,296 - INFO - Epoch 19:
+2024-04-07 06:15:55,296 - INFO -  Training Loss: 0.4189, Training Accuracy: 82.08%
+2024-04-07 06:15:55,296 - INFO -  Validation Loss: 0.5073, Validation Accuracy: 0.00%
+2024-04-07 06:15:55,297 - INFO - epoch 20 starts
+2024-04-07 11:13:43,770 - INFO - valid starts for epoch 20 starts
+2024-04-07 11:56:31,294 - INFO - Epoch 20:
+2024-04-07 11:56:31,294 - INFO -  Training Loss: 0.4156, Training Accuracy: 82.23%
+2024-04-07 11:56:31,294 - INFO -  Validation Loss: 0.4885, Validation Accuracy: 0.00%
+2024-04-07 11:56:31,295 - INFO - epoch 21 starts
+2024-04-07 16:46:53,382 - INFO - valid starts for epoch 21 starts
+2024-04-07 17:27:51,407 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-04-07 17:27:53,222 - INFO - checking point saving at epoch 21
+2024-04-07 17:27:53,222 - INFO - Epoch 21:
+2024-04-07 17:27:53,222 - INFO -  Training Loss: 0.4152, Training Accuracy: 82.29%
+2024-04-07 17:27:53,222 - INFO -  Validation Loss: 0.4987, Validation Accuracy: 0.00%
+2024-04-07 17:27:53,222 - INFO - epoch 22 starts
