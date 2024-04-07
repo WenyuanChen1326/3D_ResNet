@@ -259,7 +259,7 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
                 valid_loss += criterion(outputs.squeeze(-1), labels.float()).item()
                 # valid_loss += criterion(outputs, labels).item()
                 predicted = torch.round(torch.sigmoid(outputs.squeeze(-1)))  # Binary classification
-                correct_train += (predicted == labels).sum().item()
+                correct_valid += (predicted == labels).sum().item()
                 # print(predicted)
                 # Convert logits to probabilities
                 # probabilities = torch.softmax(outputs, dim=1)
@@ -653,7 +653,7 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', type=int, default= 30, help='Number of epochs to train.')
     parser.add_argument('--batch_size', type=int, default= 24, help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
-    parser.add_argument("--patience", type = int, default= 5, help = "patience for early stop")
+    parser.add_argument("--patience", type = int, default= 10, help = "patience for early stop")
     parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")
     parser.add_argument("--block_size", type = tuple,default = (3,3,3), help = 'The block size' )
     parser.add_argument('--start_epoch', type=int, default=0, help='Epoch to start training from, useful for resuming training')

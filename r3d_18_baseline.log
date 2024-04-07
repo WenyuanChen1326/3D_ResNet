@@ -1264,3 +1264,9 @@
 2024-04-07 17:27:53,222 - INFO -  Training Loss: 0.4152, Training Accuracy: 82.29%
 2024-04-07 17:27:53,222 - INFO -  Validation Loss: 0.4987, Validation Accuracy: 0.00%
 2024-04-07 17:27:53,222 - INFO - epoch 22 starts
+2024-04-07 22:26:10,122 - INFO - valid starts for epoch 22 starts
+2024-04-07 23:09:54,612 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-04-07 23:09:54,612 - INFO - Epoch 22:
+2024-04-07 23:09:54,613 - INFO -  Training Loss: 0.4109, Training Accuracy: 82.38%
+2024-04-07 23:09:54,613 - INFO -  Validation Loss: 0.5034, Validation Accuracy: 0.00%
+2024-04-07 23:09:54,613 - INFO - epoch 23 starts
