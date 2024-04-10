@@ -1476,3 +1476,176 @@
 2024-04-10 15:32:32,611 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
 2024-04-10 15:39:36,423 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
 2024-04-10 15:41:42,832 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(16, 16, 16), start_epoch=0, resume='')
+2024-04-10 10:44:28,750 - INFO - working with arguments Namespace(epochs=100, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 10:45:36,330 - INFO - Using device: cuda
+2024-04-10 10:45:37,649 - INFO - multiple_GPUs is True
+2024-04-10 10:45:37,650 - INFO - training start!
+2024-04-10 10:45:37,651 - INFO - epoch 0 starts
+2024-04-10 10:47:00,829 - INFO - working with arguments Namespace(epochs=4, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 10:47:01,669 - INFO - Using device: cuda
+2024-04-10 10:47:02,786 - INFO - multiple_GPUs is True
+2024-04-10 10:47:02,786 - INFO - training start!
+2024-04-10 10:47:02,788 - INFO - epoch 0 starts
+2024-04-10 10:47:13,918 - INFO - valid starts for epoch 0 starts
+2024-04-10 10:47:16,642 - INFO - checking point saving at epoch 0
+2024-04-10 10:47:16,642 - INFO - Epoch 0:
+2024-04-10 10:47:16,642 - INFO -  Training Loss: 0.0003, Training Accuracy: 56.25%
+2024-04-10 10:47:16,642 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 50.00%
+2024-04-10 10:47:16,643 - INFO - epoch 1 starts
+2024-04-10 10:47:22,087 - INFO - valid starts for epoch 1 starts
+2024-04-10 10:47:24,303 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 10:47:24,303 - INFO - Epoch 1:
+2024-04-10 10:47:24,303 - INFO -  Training Loss: 0.0003, Training Accuracy: 78.12%
+2024-04-10 10:47:24,303 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 40.62%
+2024-04-10 10:47:24,304 - INFO - epoch 2 starts
+2024-04-10 10:47:29,793 - INFO - valid starts for epoch 2 starts
+2024-04-10 10:47:32,081 - INFO - Validation loss did not improve for 2/10 epochs.
+2024-04-10 10:47:32,081 - INFO - Epoch 2:
+2024-04-10 10:47:32,081 - INFO -  Training Loss: 0.0003, Training Accuracy: 81.25%
+2024-04-10 10:47:32,081 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 43.75%
+2024-04-10 10:47:32,081 - INFO - epoch 3 starts
+2024-04-10 10:47:37,638 - INFO - valid starts for epoch 3 starts
+2024-04-10 10:47:40,016 - INFO - Validation loss did not improve for 3/10 epochs.
+2024-04-10 10:47:40,532 - INFO - checking point saving at epoch 3
+2024-04-10 10:47:40,533 - INFO - Epoch 3:
+2024-04-10 10:47:40,533 - INFO -  Training Loss: 0.0002, Training Accuracy: 90.62%
+2024-04-10 10:47:40,533 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 50.00%
+2024-04-10 10:47:40,533 - INFO - Final Epoch 3:
+2024-04-10 10:47:40,533 - INFO -  Training Loss: 0.0002, Training Accuracy: 90.62%
+2024-04-10 10:47:40,533 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 50.00%
+2024-04-10 10:47:41,013 - INFO - checking point saving at epoch 4
+2024-04-10 10:47:41,303 - INFO - Plots saved: ./2024-04-10_10-47-02/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-10_10-47-02/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-10 11:07:20,063 - INFO - working with arguments Namespace(epochs=4, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 11:08:16,940 - INFO - Using device: cuda
+2024-04-10 11:08:18,131 - INFO - multiple_GPUs is True
+2024-04-10 11:08:18,131 - INFO - training start!
+2024-04-10 11:08:18,133 - INFO - epoch 0 starts
+2024-04-10 11:08:28,858 - INFO - valid starts for epoch 0 starts
+2024-04-10 11:08:31,535 - INFO - checking point saving at epoch 0
+2024-04-10 11:08:31,535 - INFO - Epoch 0:
+2024-04-10 11:08:31,535 - INFO -  Training Loss: 0.0003, Training Accuracy: 53.12%
+2024-04-10 11:08:31,535 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 46.88%
+2024-04-10 11:08:31,535 - INFO - epoch 1 starts
+2024-04-10 11:08:36,857 - INFO - valid starts for epoch 1 starts
+2024-04-10 11:08:39,055 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 11:08:39,056 - INFO - Epoch 1:
+2024-04-10 11:08:39,056 - INFO -  Training Loss: 0.0003, Training Accuracy: 75.00%
+2024-04-10 11:08:39,056 - INFO -  Validation Loss: 0.0021, Validation Accuracy: 43.75%
+2024-04-10 11:08:39,056 - INFO - epoch 2 starts
+2024-04-10 11:08:44,398 - INFO - valid starts for epoch 2 starts
+2024-04-10 11:08:46,818 - INFO - Epoch 2:
+2024-04-10 11:08:46,818 - INFO -  Training Loss: 0.0003, Training Accuracy: 78.12%
+2024-04-10 11:08:46,818 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 46.88%
+2024-04-10 11:08:46,818 - INFO - epoch 3 starts
+2024-04-10 11:08:52,230 - INFO - valid starts for epoch 3 starts
+2024-04-10 11:08:54,502 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 11:08:55,013 - INFO - checking point saving at epoch 3
+2024-04-10 11:08:55,013 - INFO - Epoch 3:
+2024-04-10 11:08:55,013 - INFO -  Training Loss: 0.0003, Training Accuracy: 78.12%
+2024-04-10 11:08:55,014 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 56.25%
+2024-04-10 11:08:55,014 - INFO - Final Epoch 3:
+2024-04-10 11:08:55,014 - INFO -  Training Loss: 0.0003, Training Accuracy: 78.12%
+2024-04-10 11:08:55,014 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 56.25%
+2024-04-10 11:08:55,549 - INFO - checking point saving at epoch 4
+2024-04-10 11:08:55,805 - INFO - Plots saved: ./2024-04-10_11-08-18/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-10_11-08-18/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-10 11:11:26,913 - INFO - working with arguments Namespace(epochs=4, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 11:11:28,371 - INFO - Using device: cuda
+2024-04-10 11:11:29,449 - INFO - /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-11-29
+2024-04-10 11:11:29,449 - INFO - multiple_GPUs is True
+2024-04-10 11:11:29,449 - INFO - training start!
+2024-04-10 11:11:29,450 - INFO - epoch 0 starts
+2024-04-10 11:11:40,455 - INFO - valid starts for epoch 0 starts
+2024-04-10 11:12:12,583 - INFO - checking point saving at epoch 0
+2024-04-10 11:12:12,584 - INFO - Epoch 0:
+2024-04-10 11:12:12,584 - INFO -  Training Loss: 0.0003, Training Accuracy: 50.00%
+2024-04-10 11:12:12,584 - INFO -  Validation Loss: 0.0019, Validation Accuracy: 65.62%
+2024-04-10 11:12:12,585 - INFO - epoch 1 starts
+2024-04-10 11:12:18,095 - INFO - valid starts for epoch 1 starts
+2024-04-10 11:12:20,274 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 11:12:20,275 - INFO - Epoch 1:
+2024-04-10 11:12:20,275 - INFO -  Training Loss: 0.0003, Training Accuracy: 71.88%
+2024-04-10 11:12:20,275 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 37.50%
+2024-04-10 11:12:20,275 - INFO - epoch 2 starts
+2024-04-10 11:12:25,663 - INFO - valid starts for epoch 2 starts
+2024-04-10 11:12:28,102 - INFO - Validation loss did not improve for 2/10 epochs.
+2024-04-10 11:12:28,103 - INFO - Epoch 2:
+2024-04-10 11:12:28,103 - INFO -  Training Loss: 0.0003, Training Accuracy: 68.75%
+2024-04-10 11:12:28,103 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 59.38%
+2024-04-10 11:12:28,103 - INFO - epoch 3 starts
+2024-04-10 11:12:33,273 - INFO - valid starts for epoch 3 starts
+2024-04-10 11:12:35,442 - INFO - Validation loss did not improve for 3/10 epochs.
+2024-04-10 11:13:10,742 - INFO - checking point saving at epoch 3
+2024-04-10 11:13:10,743 - INFO - Epoch 3:
+2024-04-10 11:13:10,743 - INFO -  Training Loss: 0.0002, Training Accuracy: 87.50%
+2024-04-10 11:13:10,743 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 40.62%
+2024-04-10 11:13:10,744 - INFO - Final Epoch 3:
+2024-04-10 11:13:10,744 - INFO -  Training Loss: 0.0002, Training Accuracy: 87.50%
+2024-04-10 11:13:10,744 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 40.62%
+2024-04-10 11:13:33,357 - INFO - checking point saving at epoch 4
+2024-04-10 11:14:09,297 - INFO - working with arguments Namespace(epochs=4, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 11:14:10,618 - INFO - Using device: cuda
+2024-04-10 11:14:11,804 - INFO - /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11
+2024-04-10 11:14:11,804 - INFO - multiple_GPUs is True
+2024-04-10 11:14:11,804 - INFO - training start!
+2024-04-10 11:14:11,805 - INFO - epoch 0 starts
+2024-04-10 11:14:22,714 - INFO - valid starts for epoch 0 starts
+2024-04-10 11:14:56,138 - INFO - checking point saving at epoch 0
+2024-04-10 11:14:56,139 - INFO - Epoch 0:
+2024-04-10 11:14:56,139 - INFO -  Training Loss: 0.0003, Training Accuracy: 62.50%
+2024-04-10 11:14:56,139 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 40.62%
+2024-04-10 11:14:56,140 - INFO - epoch 1 starts
+2024-04-10 11:15:01,573 - INFO - valid starts for epoch 1 starts
+2024-04-10 11:15:03,788 - INFO - Epoch 1:
+2024-04-10 11:15:03,788 - INFO -  Training Loss: 0.0002, Training Accuracy: 90.62%
+2024-04-10 11:15:03,788 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 46.88%
+2024-04-10 11:15:03,789 - INFO - epoch 2 starts
+2024-04-10 11:15:09,113 - INFO - valid starts for epoch 2 starts
+2024-04-10 11:15:11,472 - INFO - Epoch 2:
+2024-04-10 11:15:11,472 - INFO -  Training Loss: 0.0003, Training Accuracy: 78.12%
+2024-04-10 11:15:11,472 - INFO -  Validation Loss: 0.0020, Validation Accuracy: 56.25%
+2024-04-10 11:15:11,473 - INFO - epoch 3 starts
+2024-04-10 11:15:16,819 - INFO - valid starts for epoch 3 starts
+2024-04-10 11:15:50,220 - INFO - checking point saving at epoch 3
+2024-04-10 11:15:50,221 - INFO - Epoch 3:
+2024-04-10 11:15:50,221 - INFO -  Training Loss: 0.0002, Training Accuracy: 81.25%
+2024-04-10 11:15:50,221 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 75.00%
+2024-04-10 11:15:50,225 - INFO - Final Epoch 3:
+2024-04-10 11:15:50,226 - INFO -  Training Loss: 0.0002, Training Accuracy: 81.25%
+2024-04-10 11:15:50,226 - INFO -  Validation Loss: 0.0017, Validation Accuracy: 75.00%
+2024-04-10 11:16:22,518 - INFO - checking point saving at epoch 4
+2024-04-10 11:16:23,308 - INFO - Plots saved: /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/block_size_(3, 3, 3)_training_validation_loss.png and /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-10 11:17:11,197 - INFO - working with arguments Namespace(epochs=4, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/checkpoint_epoch_3.pth.tar')
+2024-04-10 11:17:13,322 - INFO - Using device: cuda
+2024-04-10 11:17:14,619 - INFO - => loading checkpoint '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/checkpoint_epoch_3.pth.tar'
+2024-04-10 11:17:15,299 - INFO - multiple_GPUs is True
+2024-04-10 11:17:15,299 - INFO - training start!
+2024-04-10 11:17:15,300 - INFO - Final Epoch None:
+2024-04-10 11:18:54,485 - INFO - working with arguments Namespace(epochs=6, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/checkpoint_epoch_3.pth.tar')
+2024-04-10 11:18:56,457 - INFO - Using device: cuda
+2024-04-10 11:18:57,610 - INFO - => loading checkpoint '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/checkpoint_epoch_3.pth.tar'
+2024-04-10 11:18:58,305 - INFO - multiple_GPUs is True
+2024-04-10 11:18:58,305 - INFO - training start!
+2024-04-10 11:18:58,307 - INFO - epoch 4 starts
+2024-04-10 11:19:09,153 - INFO - valid starts for epoch 4 starts
+2024-04-10 11:19:11,335 - INFO - Epoch 4:
+2024-04-10 11:19:11,335 - INFO -  Training Loss: 0.0002, Training Accuracy: 84.38%
+2024-04-10 11:19:11,335 - INFO -  Validation Loss: 0.0025, Validation Accuracy: 43.75%
+2024-04-10 11:19:11,335 - INFO - epoch 5 starts
+2024-04-10 11:19:16,641 - INFO - valid starts for epoch 5 starts
+2024-04-10 11:19:18,928 - INFO - Epoch 5:
+2024-04-10 11:19:18,928 - INFO -  Training Loss: 0.0003, Training Accuracy: 68.75%
+2024-04-10 11:19:18,928 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 53.12%
+2024-04-10 11:19:18,928 - INFO - Final Epoch 5:
+2024-04-10 11:19:18,928 - INFO -  Training Loss: 0.0003, Training Accuracy: 68.75%
+2024-04-10 11:19:18,928 - INFO -  Validation Loss: 0.0023, Validation Accuracy: 53.12%
+2024-04-10 11:19:47,187 - INFO - checking point saving at epoch 6
+2024-04-10 11:19:48,108 - INFO - Plots saved: /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/block_size_(3, 3, 3)_training_validation_loss.png and /gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-10 11:33:29,748 - INFO - working with arguments Namespace(epochs=6, batch_size=8, learning_rate=0.0001, patience=10, test=True, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 11:33:47,715 - INFO - Using device: cuda
+2024-04-10 11:34:30,349 - INFO - Testing Starts!
+2024-04-10 11:35:40,906 - INFO - Test Size: 1000, Accuracy: 0.9350, Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000
+2024-04-10 11:35:41,086 - INFO - Test Loss: 49.5853
+2024-04-10 11:36:46,508 - INFO - Test Size: 2000, Accuracy: 0.9675, Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000
+2024-04-10 11:36:47,074 - INFO - Test Loss: 104.2456
+2024-04-10 11:37:51,930 - INFO - Test Size: 3000, Accuracy: 0.9783, Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000
+2024-04-10 11:37:52,030 - INFO - Test Loss: 160.3294

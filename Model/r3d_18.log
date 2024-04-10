@@ -1,0 +1,90 @@
+2024-03-12 20:46:50,398 - INFO - working with train_data_size_per_class: 100
+2024-03-12 20:46:50,398 - INFO - working with valid_data_size_per_class: 10
+2024-03-12 20:46:50,398 - INFO - working with test_data_size_per_class: 10
+2024-03-12 20:46:51,234 - INFO - Using device: cuda
+2024-03-12 20:47:42,600 - INFO - working with train_data_size_per_class: 100
+2024-03-12 20:47:42,600 - INFO - working with valid_data_size_per_class: 10
+2024-03-12 20:47:42,600 - INFO - working with test_data_size_per_class: 10
+2024-03-12 20:47:43,568 - INFO - Using device: cuda
+2024-03-12 20:48:09,708 - INFO - working with train_data_size_per_class: 100
+2024-03-12 20:48:09,708 - INFO - working with valid_data_size_per_class: 10
+2024-03-12 20:48:09,708 - INFO - working with test_data_size_per_class: 10
+2024-03-12 20:48:10,545 - INFO - Using device: cuda
+2024-03-12 20:48:15,233 - INFO - epoch 0 starts
+2024-03-12 20:49:21,715 - INFO - Epoch 0:
+2024-03-12 20:49:21,715 - INFO -  Training Loss: 0.6357, Training Accuracy: 62.50%
+2024-03-12 20:49:21,715 - INFO -  Validation Loss: 0.9726, Validation Accuracy: 45.00%
+2024-03-12 20:49:21,715 - INFO - epoch 1 starts
+2024-03-12 20:50:26,570 - INFO - Epoch 1:
+2024-03-12 20:50:26,571 - INFO -  Training Loss: 0.4477, Training Accuracy: 81.50%
+2024-03-12 20:50:26,571 - INFO -  Validation Loss: 0.3934, Validation Accuracy: 85.00%
+2024-03-12 20:50:26,571 - INFO - epoch 2 starts
+2024-03-12 20:51:31,438 - INFO - Epoch 2:
+2024-03-12 20:51:31,438 - INFO -  Training Loss: 0.5525, Training Accuracy: 73.50%
+2024-03-12 20:51:31,438 - INFO -  Validation Loss: 0.3340, Validation Accuracy: 90.00%
+2024-03-12 20:51:31,438 - INFO - epoch 3 starts
+2024-03-12 20:52:36,335 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-03-12 20:52:36,335 - INFO - Epoch 3:
+2024-03-12 20:52:36,335 - INFO -  Training Loss: 0.4827, Training Accuracy: 79.00%
+2024-03-12 20:52:36,335 - INFO -  Validation Loss: 0.3405, Validation Accuracy: 80.00%
+2024-03-12 20:52:36,335 - INFO - epoch 4 starts
+2024-03-12 20:53:40,675 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-03-12 20:53:40,675 - INFO - Epoch 4:
+2024-03-12 20:53:40,675 - INFO -  Training Loss: 0.4849, Training Accuracy: 79.50%
+2024-03-12 20:53:40,675 - INFO -  Validation Loss: 0.7958, Validation Accuracy: 60.00%
+2024-03-12 20:53:40,675 - INFO - epoch 5 starts
+2024-03-12 20:54:45,139 - INFO - Epoch 5:
+2024-03-12 20:54:45,139 - INFO -  Training Loss: 0.4841, Training Accuracy: 79.00%
+2024-03-12 20:54:45,139 - INFO -  Validation Loss: 0.1768, Validation Accuracy: 95.00%
+2024-03-12 20:54:45,139 - INFO - epoch 6 starts
+2024-03-12 20:55:49,791 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-03-12 20:55:49,791 - INFO - Epoch 6:
+2024-03-12 20:55:49,791 - INFO -  Training Loss: 0.4103, Training Accuracy: 80.50%
+2024-03-12 20:55:49,791 - INFO -  Validation Loss: 0.2381, Validation Accuracy: 90.00%
+2024-03-12 20:55:49,792 - INFO - epoch 7 starts
+2024-03-12 20:56:54,566 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-03-12 20:56:54,567 - INFO - Epoch 7:
+2024-03-12 20:56:54,567 - INFO -  Training Loss: 0.3288, Training Accuracy: 90.50%
+2024-03-12 20:56:54,567 - INFO -  Validation Loss: 0.1813, Validation Accuracy: 100.00%
+2024-03-12 20:56:54,567 - INFO - epoch 8 starts
+2024-03-12 20:57:59,258 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-03-12 20:57:59,258 - INFO - Epoch 8:
+2024-03-12 20:57:59,258 - INFO -  Training Loss: 0.3197, Training Accuracy: 89.00%
+2024-03-12 20:57:59,258 - INFO -  Validation Loss: 0.3077, Validation Accuracy: 90.00%
+2024-03-12 20:57:59,259 - INFO - epoch 9 starts
+2024-03-12 20:59:03,874 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-03-12 20:59:03,875 - INFO - Epoch 9:
+2024-03-12 20:59:03,875 - INFO -  Training Loss: 0.2163, Training Accuracy: 94.00%
+2024-03-12 20:59:03,875 - INFO -  Validation Loss: 0.2389, Validation Accuracy: 85.00%
+2024-03-12 20:59:03,875 - INFO - epoch 10 starts
+2024-03-12 21:00:08,553 - INFO - Epoch 10:
+2024-03-12 21:00:08,554 - INFO -  Training Loss: 0.3937, Training Accuracy: 85.50%
+2024-03-12 21:00:08,554 - INFO -  Validation Loss: 0.1565, Validation Accuracy: 95.00%
+2024-03-12 21:00:08,554 - INFO - epoch 11 starts
+2024-03-12 21:01:13,193 - INFO - Epoch 11:
+2024-03-12 21:01:13,193 - INFO -  Training Loss: 0.2366, Training Accuracy: 91.50%
+2024-03-12 21:01:13,193 - INFO -  Validation Loss: 0.1333, Validation Accuracy: 100.00%
+2024-03-12 21:01:13,194 - INFO - epoch 12 starts
+2024-03-12 21:02:17,984 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-03-12 21:02:17,984 - INFO - Epoch 12:
+2024-03-12 21:02:17,984 - INFO -  Training Loss: 0.2309, Training Accuracy: 92.00%
+2024-03-12 21:02:17,984 - INFO -  Validation Loss: 0.1738, Validation Accuracy: 95.00%
+2024-03-12 21:02:17,985 - INFO - epoch 13 starts
+2024-03-12 21:03:22,451 - INFO - Validation loss did not improve for 2/5 epochs.
+2024-03-12 21:03:22,451 - INFO - Epoch 13:
+2024-03-12 21:03:22,451 - INFO -  Training Loss: 0.4385, Training Accuracy: 79.50%
+2024-03-12 21:03:22,452 - INFO -  Validation Loss: 0.1950, Validation Accuracy: 90.00%
+2024-03-12 21:03:22,452 - INFO - epoch 14 starts
+2024-03-12 21:04:26,978 - INFO - Epoch 14:
+2024-03-12 21:04:26,978 - INFO -  Training Loss: 0.2624, Training Accuracy: 92.50%
+2024-03-12 21:04:26,978 - INFO -  Validation Loss: 0.1145, Validation Accuracy: 100.00%
+2024-03-12 21:04:26,978 - INFO - epoch 15 starts
+2024-03-12 21:05:31,453 - INFO - Epoch 15:
+2024-03-12 21:05:31,453 - INFO -  Training Loss: 0.1768, Training Accuracy: 95.00%
+2024-03-12 21:05:31,453 - INFO -  Validation Loss: 0.0871, Validation Accuracy: 100.00%
+2024-03-12 21:05:31,453 - INFO - epoch 16 starts
+2024-03-12 21:06:35,861 - INFO - Validation loss did not improve for 1/5 epochs.
+2024-03-12 21:06:35,861 - INFO - Epoch 16:
+2024-03-12 21:06:35,861 - INFO -  Training Loss: 0.1785, Training Accuracy: 94.50%
+2024-03-12 21:06:35,861 - INFO -  Validation Loss: 0.1324, Validation Accuracy: 100.00%
+2024-03-12 21:06:35,862 - INFO - epoch 17 starts

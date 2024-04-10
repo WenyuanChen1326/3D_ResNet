@@ -20,7 +20,7 @@ sys.path.append("./")
 from src.utils import scale_up_block
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3,4,5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,4,5,6,7"
 import torch
 import h5py
 from torch.utils.data import Dataset, DataLoader
@@ -236,9 +236,9 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
             # print(f"label_size_0 {labels.size(0)}")
             # print(f'total train within epoch {total_train}')
 
-            # temp +=1
-            # if temp >=4:
-            #     break 
+            temp +=1
+            if temp >=4:
+                break 
         
         # print(f'train loader{len(train_loader)}')
         # print(f'total train {total_train}')
@@ -282,9 +282,9 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
                 total_valid += labels.size(0)
                 assert correct_valid <= total_valid
                 # correct_valid += ((predicted == labels).sum().item())
-                # temp +=1
-                # if temp >=4:
-                #     break
+                temp +=1
+                if temp >=4:
+                    break
         # print(f'valid loader{len(valid_loader)}')
         # print(f'total valid {total_valid}')
         # print(f'correct valid {correct_valid}')
@@ -476,7 +476,7 @@ def save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, n
     plt.savefig(accuracy_plot_filename)
     plt.close()
     logging.info(f'Plots saved: {loss_plot_filename} and {accuracy_plot_filename}')
-def main(args):
+def main(args, final_output_dir):
     mean = 3.272275845858922
     std = 3.7406388529889547
     transform = Compose([
@@ -486,12 +486,12 @@ def main(args):
     # read data
     train_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
                                 # root_dir='./Data/Processed_Block_block_size3',
-                                root_dir= '../data/sandy/Processed_Block_block_size16',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
                                 split_type='train',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     valid_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
                                 # root_dir='./Data/Processed_Block_block_size3',
-                                root_dir= '../data/sandy/Processed_Block_block_size16',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
                                 split_type='val',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     
@@ -568,17 +568,17 @@ def main(args):
             args.start_epoch = 0
             print(f"=> no checkpoint found at '{args.resume}'")
             current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-            current_run_dir = f"./{current_time}"
+            current_run_dir = f"{final_output_dir}/{current_time}"
             os.makedirs(current_run_dir, exist_ok=True)
+            logging.info(current_run_dir)
             train_losses, train_accuracies, valid_losses, valid_accuracies = None, None, None, None
         model, train_losses, train_accuracies, valid_losses, valid_accuracies = train_model(model, train_loader, valid_loader, 
                                             criterion, optimizer, args.epochs, device, current_run_dir, args.patience, multiple_GPUs, 
                                             train_losses, train_accuracies, valid_losses, valid_accuracies)
-
         # Save the model
         # current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         model_filename = f'{current_run_dir}/trained_model_block_{args.block_size}_{current_time}.pth'
-        checkpoint_filename = f'{current_run_dir}/trained_model_block_{args.block_size}_checkpoint_epoch_{args.epochs}.pth.tar'
+        checkpoint_filename = f'{current_run_dir}/trained_model_block_{args.block_size}_best_checkpoint_epoch_{args.epochs}.pth.tar'
         # if multiple_GPUs:
         #     torch.save(model.module.state_dict(), model_filename)
         # else:
@@ -609,11 +609,11 @@ def main(args):
         # test_model(model, test_loader,criterion, device)
 
         # Save training/validation plots
-        save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, args.epochs, args.block_size,current_run_dir)
+        save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, args.epochs, args.block_size, current_run_dir)
 
     else:
         test_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
-                                root_dir='./Data/Processed_Block_block_size3',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
                                 split_type='test',
                                 neg_sampling_ratio=1, transform=transform, load_all_test_samples=args.test)
         test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
@@ -629,7 +629,8 @@ def main(args):
             print(f"Let's use {torch.cuda.device_count()} GPUs!")
             multiple_GPUs = True
             model = nn.DataParallel(model)
-        path = '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_9.pth.tar'
+        # path = '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_9.pth.tar'
+        path = '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11/trained_model_block_(3, 3, 3)_best_checkpoint_epoch_6.pth.tar'
         checkpoint = torch.load(path)
         # start_epoch = checkpoint['epoch']
         keys = list(checkpoint['state_dict'].keys())
@@ -678,7 +679,7 @@ def main(args):
 
         # Load the adjusted state dictionary into the model
         # model.load_state_dict(new_state_dict)
-        current_run_dir = '2024-04-03_18-23-20'
+        current_run_dir = '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results/2024-04-10_11-14-11'
         # current_run_dir_path = f'2024-04-03_18-23-20/epoch_{start_epoch}'
         # path += "/Results"
         # current_run_dir = os.makedirs(current_run_dir_path, exist_ok=True)
@@ -688,16 +689,17 @@ def main(args):
 if __name__ == "__main__":
     # print(torch.cuda.is_available())
     parser = argparse.ArgumentParser(description='Train and evaluate a 3D ResNet model.')
-    parser.add_argument('--epochs', type=int, default= 100, help='Number of epochs to train.')
-    parser.add_argument('--batch_size', type=int, default= 25, help='Batch size for training and evaluation.')
+    parser.add_argument('--epochs', type=int, default= 6, help='Number of epochs to train.')
+    parser.add_argument('--batch_size', type=int, default= 8, help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
     parser.add_argument("--patience", type = int, default= 10, help = "patience for early stop")
-    parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")
-    parser.add_argument("--block_size", type = tuple,default = (16,16,16), help = 'The block size' )
+    parser.add_argument("--test",type = bool, default = True, help= "if True, we load a model and test on full datasets")
+    parser.add_argument("--block_size", type = tuple,default = (3,3,3), help = 'The block size' )
     parser.add_argument('--start_epoch', type=int, default=0, help='Epoch to start training from, useful for resuming training')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
     args = parser.parse_args()
     logging.info(f'working with arguments {args}')
+    final_output_dir_size_3 = '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results'
     
-    main(args)
+    main(args, final_output_dir_size_3)
