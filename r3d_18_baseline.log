@@ -1696,3 +1696,4 @@
 2024-04-10 15:58:34,354 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 46.88%
 2024-04-10 15:58:54,641 - INFO - checking point saving at epoch 6
 2024-04-10 15:58:54,977 - INFO - Plots saved: /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_15-49-46/block_size_(16, 16, 16)_training_validation_loss.png and /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_15-49-46/block_size_(16, 16, 16)_training_validation_accuracy.png
+2024-04-10 16:41:28,535 - INFO - working with arguments Namespace(epochs=6, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(16, 16, 16), start_epoch=0, resume='')
