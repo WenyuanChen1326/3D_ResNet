@@ -236,9 +236,9 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
             # print(f"label_size_0 {labels.size(0)}")
             # print(f'total train within epoch {total_train}')
 
-            temp +=1
-            if temp >=4:
-                break 
+            # temp +=1
+            # if temp >=4:
+            #     break 
         
         # print(f'train loader{len(train_loader)}')
         # print(f'total train {total_train}')
@@ -282,9 +282,9 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
                 total_valid += labels.size(0)
                 assert correct_valid <= total_valid
                 # correct_valid += ((predicted == labels).sum().item())
-                temp +=1
-                if temp >=4:
-                    break
+                # temp +=1
+                # if temp >=4:
+                #     break
         # print(f'valid loader{len(valid_loader)}')
         # print(f'total valid {total_valid}')
         # print(f'correct valid {correct_valid}')
@@ -691,8 +691,8 @@ def main(args, final_output_dir):
 if __name__ == "__main__":
     # print(torch.cuda.is_available())
     parser = argparse.ArgumentParser(description='Train and evaluate a 3D ResNet model.')
-    parser.add_argument('--epochs', type=int, default= 6, help='Number of epochs to train.')
-    parser.add_argument('--batch_size', type=int, default= 8, help='Batch size for training and evaluation.')
+    parser.add_argument('--epochs', type=int, default= 100, help='Number of epochs to train.')
+    parser.add_argument('--batch_size', type=int, default= 32 , help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
     parser.add_argument("--patience", type = int, default= 10, help = "patience for early stop")
     parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")

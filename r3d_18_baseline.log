@@ -1697,3 +1697,49 @@
 2024-04-10 15:58:54,641 - INFO - checking point saving at epoch 6
 2024-04-10 15:58:54,977 - INFO - Plots saved: /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_15-49-46/block_size_(16, 16, 16)_training_validation_loss.png and /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_15-49-46/block_size_(16, 16, 16)_training_validation_accuracy.png
 2024-04-10 16:41:28,535 - INFO - working with arguments Namespace(epochs=6, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(16, 16, 16), start_epoch=0, resume='')
+2024-04-10 16:44:08,982 - INFO - Using device: cuda
+2024-04-10 16:44:14,293 - INFO - /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_16-44-14
+2024-04-10 16:44:14,293 - INFO - multiple_GPUs is True
+2024-04-10 16:44:14,293 - INFO - training start!
+2024-04-10 16:44:14,294 - INFO - epoch 0 starts
+2024-04-10 16:44:57,407 - INFO - valid starts for epoch 0 starts
+2024-04-10 16:45:51,675 - INFO - checking point saving at epoch 0
+2024-04-10 16:45:51,676 - INFO - Epoch 0:
+2024-04-10 16:45:51,676 - INFO -  Training Loss: 0.0001, Training Accuracy: 59.38%
+2024-04-10 16:45:51,676 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 65.62%
+2024-04-10 16:45:51,677 - INFO - epoch 1 starts
+2024-04-10 16:46:30,525 - INFO - valid starts for epoch 1 starts
+2024-04-10 16:47:07,139 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 16:47:07,139 - INFO - Epoch 1:
+2024-04-10 16:47:07,139 - INFO -  Training Loss: 0.0001, Training Accuracy: 56.25%
+2024-04-10 16:47:07,139 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 56.25%
+2024-04-10 16:47:07,139 - INFO - epoch 2 starts
+2024-04-10 16:47:27,756 - INFO - valid starts for epoch 2 starts
+2024-04-10 16:47:56,053 - INFO - Epoch 2:
+2024-04-10 16:47:56,053 - INFO -  Training Loss: 0.0001, Training Accuracy: 62.50%
+2024-04-10 16:47:56,053 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 65.62%
+2024-04-10 16:47:56,053 - INFO - epoch 3 starts
+2024-04-10 16:48:27,975 - INFO - valid starts for epoch 3 starts
+2024-04-10 16:48:50,445 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-10 16:49:17,799 - INFO - checking point saving at epoch 3
+2024-04-10 16:49:17,799 - INFO - Epoch 3:
+2024-04-10 16:49:17,799 - INFO -  Training Loss: 0.0001, Training Accuracy: 68.75%
+2024-04-10 16:49:17,799 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 46.88%
+2024-04-10 16:49:17,800 - INFO - epoch 4 starts
+2024-04-10 16:49:50,051 - INFO - valid starts for epoch 4 starts
+2024-04-10 16:50:09,984 - INFO - Validation loss did not improve for 2/10 epochs.
+2024-04-10 16:50:09,985 - INFO - Epoch 4:
+2024-04-10 16:50:09,985 - INFO -  Training Loss: 0.0001, Training Accuracy: 56.25%
+2024-04-10 16:50:09,985 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 43.75%
+2024-04-10 16:50:09,985 - INFO - epoch 5 starts
+2024-04-10 16:50:37,462 - INFO - valid starts for epoch 5 starts
+2024-04-10 16:50:58,523 - INFO - Validation loss did not improve for 3/10 epochs.
+2024-04-10 16:50:58,524 - INFO - Epoch 5:
+2024-04-10 16:50:58,524 - INFO -  Training Loss: 0.0001, Training Accuracy: 59.38%
+2024-04-10 16:50:58,524 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 34.38%
+2024-04-10 16:50:58,524 - INFO - Final Epoch 5:
+2024-04-10 16:50:58,524 - INFO -  Training Loss: 0.0001, Training Accuracy: 59.38%
+2024-04-10 16:50:58,524 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 34.38%
+2024-04-10 16:51:26,131 - INFO - checking point saving at epoch 6
+2024-04-10 16:51:26,656 - INFO - Plots saved: /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_16-44-14/block_size_(16, 16, 16)_training_validation_loss.png and /gpfs/fs0/data/stanford_data/petct_patches/block_size16_results/2024-04-10_16-44-14/block_size_(16, 16, 16)_training_validation_accuracy.png
+2024-04-10 16:56:36,480 - INFO - working with arguments Namespace(epochs=100, batch_size=32, learning_rate=0.0001, patience=10, test=False, block_size=(16, 16, 16), start_epoch=0, resume='')
