@@ -20,7 +20,7 @@ sys.path.append("./")
 from src.utils import scale_up_block
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,4,5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3,4,5"
 import torch
 import h5py
 from torch.utils.data import Dataset, DataLoader
@@ -143,20 +143,28 @@ class PETCTDataset(Dataset):
         # return neg_block, torch.tensor(0)  # 0 as the label for negative
 
 # Usage:
-def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epochs, device,current_run_dir, patience=5, multiple_GPUs = False):
+def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epochs, device,current_run_dir, patience=5, multiple_GPUs = False,
+                train_losses = None, train_accuracies = None, valid_losses = None, valid_accuracies = None):
+    # print(current_run_dir) 
     assert current_run_dir is not None
     print(f"Model type before training: {type(model)}")
     logging.info(f'multiple_GPUs is {multiple_GPUs}')
     logging.info('training start!')
-    train_losses = []
-    train_accuracies = []
-    valid_losses = []
-    valid_accuracies = []
+    if train_losses == None:
+        train_losses = []
+    if train_accuracies == None:
+        train_accuracies = []
+    if valid_losses == None:
+        valid_losses = []
+    if valid_accuracies == None:
+        valid_accuracies = []
+
 
 
     best_valid_loss = float('inf')
     best_model_state = None
     epochs_no_improve = 0
+    epoch = None
 
     # Training loop
     for epoch in tqdm(range(args.start_epoch, num_epochs)):
@@ -165,7 +173,7 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
         running_loss = 0.0
         correct_train = 0
         total_train = 0
-        # temp = 0
+        temp = 0
         for inputs, labels in tqdm(train_loader):
             # logging.info(inputs.shape)
             # assert inputs.dim() == 5 and inputs.size(1) == 1
@@ -249,7 +257,7 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
         total_valid = 0
         with torch.no_grad():  # No need to track gradients during validation
             logging.info(f"valid starts for epoch {epoch} starts")
-            # temp = 0
+            temp = 0
             for inputs, labels in tqdm(valid_loader):
                 inputs = torch.cat([inputs]*3, dim=1) 
                 # print(inputs.shape)
@@ -328,6 +336,10 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
         logging.info(f" Training Loss: {epoch_loss:.4f}, Training Accuracy: {train_accuracy:.2f}%")
         logging.info(f" Validation Loss: {epoch_valid_loss:.4f}, Validation Accuracy: {valid_accuracy:.2f}%")
 
+    logging.info(f"Final Epoch {epoch}:")
+    logging.info(f" Training Loss: {epoch_loss:.4f}, Training Accuracy: {train_accuracy:.2f}%")
+    logging.info(f" Validation Loss: {epoch_valid_loss:.4f}, Validation Accuracy: {valid_accuracy:.2f}%")
+
     if best_model_state is not None:
         model.load_state_dict(best_model_state)
 
@@ -340,7 +352,7 @@ def test_model(model, test_loader, criterion, device, current_run_dir):
     # total = 0
     all_labels = []
     all_predictions = []
-    temp = 0
+    # temp = 0
 
     with torch.no_grad():  # No gradients need to be calculated
         for inputs, labels in tqdm(test_loader, desc='Testing'):
@@ -473,11 +485,13 @@ def main(args):
     ])
     # read data
     train_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
-                                root_dir='./Data/Processed_Block_block_size3',
+                                # root_dir='./Data/Processed_Block_block_size3',
+                                root_dir= '../data/sandy/Processed_Block_block_size16',
                                 split_type='train',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     valid_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
-                                root_dir='./Data/Processed_Block_block_size3',
+                                # root_dir='./Data/Processed_Block_block_size3',
+                                root_dir= '../data/sandy/Processed_Block_block_size16',
                                 split_type='val',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     
@@ -516,7 +530,7 @@ def main(args):
         # Check for checkpoint and load it if available
         if args.resume:
             if os.path.isfile(args.resume):
-                print(f"=> loading checkpoint '{args.resume}'")
+                logging.info(f"=> loading checkpoint '{args.resume}'")
                 checkpoint = torch.load(args.resume)
 
                 args.start_epoch = checkpoint['epoch']
@@ -556,16 +570,40 @@ def main(args):
             current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
             current_run_dir = f"./{current_time}"
             os.makedirs(current_run_dir, exist_ok=True)
+            train_losses, train_accuracies, valid_losses, valid_accuracies = None, None, None, None
         model, train_losses, train_accuracies, valid_losses, valid_accuracies = train_model(model, train_loader, valid_loader, 
-                                            criterion, optimizer, args.epochs, device, current_run_dir, args.patience, multiple_GPUs)
+                                            criterion, optimizer, args.epochs, device, current_run_dir, args.patience, multiple_GPUs, 
+                                            train_losses, train_accuracies, valid_losses, valid_accuracies)
 
         # Save the model
         # current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         model_filename = f'{current_run_dir}/trained_model_block_{args.block_size}_{current_time}.pth'
-        if multiple_GPUs:
-            torch.save(model.module.state_dict(), model_filename)
+        checkpoint_filename = f'{current_run_dir}/trained_model_block_{args.block_size}_checkpoint_epoch_{args.epochs}.pth.tar'
+        # if multiple_GPUs:
+        #     torch.save(model.module.state_dict(), model_filename)
+        # else:
+        #     torch.save(model.state_dict(), model_filename)
+
+        # if multiple_GPUs:
+        print(f"Model type before error: {type(model)}")
+        if isinstance(model, nn.DataParallel):
+            model_state_dict = model.module.state_dict()
         else:
-            torch.save(model.state_dict(), model_filename)
+            model_state_dict = model.state_dict()
+        save_checkpoint({
+            'epoch': args.epochs + 1,
+            # 'state_dict': model.state_dict(),
+            'state_dict': model_state_dict,
+            'optimizer': optimizer.state_dict(),
+            'train_losses': train_losses,
+            'train_accuracies': train_accuracies,
+            'valid_losses': valid_losses,
+            'valid_accuracies': valid_accuracies,
+            'current_run_dir': current_run_dir
+        }, filename=checkpoint_filename)  
+        logging.info(f'checking point saving at epoch {args.epochs}')
+            
+
         # Test the model
         # print(device)
         # test_model(model, test_loader,criterion, device)
@@ -650,15 +688,16 @@ def main(args):
 if __name__ == "__main__":
     # print(torch.cuda.is_available())
     parser = argparse.ArgumentParser(description='Train and evaluate a 3D ResNet model.')
-    parser.add_argument('--epochs', type=int, default= 30, help='Number of epochs to train.')
-    parser.add_argument('--batch_size', type=int, default= 24, help='Batch size for training and evaluation.')
+    parser.add_argument('--epochs', type=int, default= 100, help='Number of epochs to train.')
+    parser.add_argument('--batch_size', type=int, default= 25, help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
     parser.add_argument("--patience", type = int, default= 10, help = "patience for early stop")
     parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")
-    parser.add_argument("--block_size", type = tuple,default = (3,3,3), help = 'The block size' )
+    parser.add_argument("--block_size", type = tuple,default = (16,16,16), help = 'The block size' )
     parser.add_argument('--start_epoch', type=int, default=0, help='Epoch to start training from, useful for resuming training')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
     args = parser.parse_args()
+    logging.info(f'working with arguments {args}')
     
     main(args)

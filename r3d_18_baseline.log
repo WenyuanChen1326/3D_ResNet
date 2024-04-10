@@ -1270,3 +1270,209 @@
 2024-04-07 23:09:54,613 - INFO -  Training Loss: 0.4109, Training Accuracy: 82.38%
 2024-04-07 23:09:54,613 - INFO -  Validation Loss: 0.5034, Validation Accuracy: 0.00%
 2024-04-07 23:09:54,613 - INFO - epoch 23 starts
+2024-04-08 05:07:07,114 - INFO - valid starts for epoch 23 starts
+2024-04-08 05:48:16,191 - INFO - Validation loss did not improve for 3/5 epochs.
+2024-04-08 05:48:16,192 - INFO - Epoch 23:
+2024-04-08 05:48:16,192 - INFO -  Training Loss: 0.4120, Training Accuracy: 82.29%
+2024-04-08 05:48:16,192 - INFO -  Validation Loss: 0.4991, Validation Accuracy: 0.00%
+2024-04-08 05:48:16,193 - INFO - epoch 24 starts
+2024-04-08 10:23:44,235 - INFO - valid starts for epoch 24 starts
+2024-04-08 11:03:18,545 - INFO - Validation loss did not improve for 4/5 epochs.
+2024-04-08 11:03:20,772 - INFO - checking point saving at epoch 24
+2024-04-08 11:03:20,773 - INFO - Epoch 24:
+2024-04-08 11:03:20,773 - INFO -  Training Loss: 0.4098, Training Accuracy: 82.55%
+2024-04-08 11:03:20,773 - INFO -  Validation Loss: 0.5057, Validation Accuracy: 0.00%
+2024-04-08 11:03:20,773 - INFO - epoch 25 starts
+2024-04-08 15:33:34,140 - INFO - valid starts for epoch 25 starts
+2024-04-08 16:11:55,581 - INFO - Validation loss did not improve for 5/5 epochs.
+2024-04-08 16:11:55,581 - INFO - Early stopping triggered.
+2024-04-08 16:11:56,276 - INFO - Plots saved: ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-08 19:54:18,226 - INFO - working with arguments Namespace(epochs=2, batch_size=4, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-08 19:54:19,846 - INFO - Using device: cuda
+2024-04-08 19:54:23,581 - INFO - multiple_GPUs is True
+2024-04-08 19:54:23,582 - INFO - training start!
+2024-04-08 19:54:23,583 - INFO - epoch 0 starts
+2024-04-08 19:55:25,175 - INFO - working with arguments Namespace(epochs=2, batch_size=4, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-08 19:55:26,790 - INFO - Using device: cuda
+2024-04-08 19:55:29,469 - INFO - multiple_GPUs is True
+2024-04-08 19:55:29,469 - INFO - training start!
+2024-04-08 19:55:29,471 - INFO - epoch 0 starts
+2024-04-08 19:55:40,083 - INFO - valid starts for epoch 0 starts
+2024-04-08 19:55:45,803 - INFO - checking point saving at epoch 0
+2024-04-08 19:55:45,804 - INFO - Epoch 0:
+2024-04-08 19:55:45,804 - INFO -  Training Loss: 0.0002, Training Accuracy: 31.25%
+2024-04-08 19:55:45,804 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 37.50%
+2024-04-08 19:55:45,804 - INFO - epoch 1 starts
+2024-04-08 19:55:49,230 - INFO - valid starts for epoch 1 starts
+2024-04-08 19:55:52,424 - INFO - Epoch 1:
+2024-04-08 19:55:52,424 - INFO -  Training Loss: 0.0002, Training Accuracy: 62.50%
+2024-04-08 19:55:52,424 - INFO -  Validation Loss: 0.0010, Validation Accuracy: 62.50%
+2024-04-08 19:55:53,833 - INFO - Plots saved: ./2024-04-08_19-55-29/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-08_19-55-29/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-08 20:00:19,937 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_17-48-44/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:00:21,510 - INFO - Using device: cuda
+2024-04-08 20:01:07,727 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_17-48-44/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:01:09,263 - INFO - Using device: cuda
+2024-04-08 20:01:50,203 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-08 20:01:51,818 - INFO - Using device: cuda
+2024-04-08 20:01:54,156 - INFO - multiple_GPUs is True
+2024-04-08 20:01:54,156 - INFO - training start!
+2024-04-08 20:01:54,157 - INFO - epoch 0 starts
+2024-04-08 20:02:04,992 - INFO - valid starts for epoch 0 starts
+2024-04-08 20:03:13,880 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_17-48-44/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:03:15,475 - INFO - Using device: cuda
+2024-04-08 20:04:52,053 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:04:53,603 - INFO - Using device: cuda
+2024-04-08 20:04:56,552 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar'
+2024-04-08 20:04:56,995 - INFO - multiple_GPUs is True
+2024-04-08 20:04:56,996 - INFO - training start!
+2024-04-08 20:04:56,997 - INFO - epoch 25 starts
+2024-04-08 20:05:08,812 - INFO - valid starts for epoch 25 starts
+2024-04-08 20:05:13,054 - INFO - Epoch 25:
+2024-04-08 20:05:13,054 - INFO -  Training Loss: 0.0001, Training Accuracy: 90.62%
+2024-04-08 20:05:13,054 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 100.00%
+2024-04-08 20:05:13,054 - INFO - epoch 26 starts
+2024-04-08 20:05:18,493 - INFO - valid starts for epoch 26 starts
+2024-04-08 20:05:22,676 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-08 20:05:22,676 - INFO - Epoch 26:
+2024-04-08 20:05:22,676 - INFO -  Training Loss: 0.0003, Training Accuracy: 68.75%
+2024-04-08 20:05:22,676 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 87.50%
+2024-04-08 20:05:22,676 - INFO - epoch 27 starts
+2024-04-08 20:05:28,873 - INFO - valid starts for epoch 27 starts
+2024-04-08 20:05:32,494 - INFO - Validation loss did not improve for 2/10 epochs.
+2024-04-08 20:05:52,920 - INFO - checking point saving at epoch 27
+2024-04-08 20:05:52,920 - INFO - Epoch 27:
+2024-04-08 20:05:52,920 - INFO -  Training Loss: 0.0003, Training Accuracy: 71.88%
+2024-04-08 20:05:52,920 - INFO -  Validation Loss: 0.0012, Validation Accuracy: 84.38%
+2024-04-08 20:05:52,920 - INFO - epoch 28 starts
+2024-04-08 20:07:06,991 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:07:08,545 - INFO - Using device: cuda
+2024-04-08 20:07:11,338 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar'
+2024-04-08 20:07:11,666 - INFO - multiple_GPUs is True
+2024-04-08 20:07:11,666 - INFO - training start!
+2024-04-08 20:07:11,667 - INFO - epoch 25 starts
+2024-04-08 20:09:25,725 - INFO - working with arguments Namespace(epochs=30, batch_size=8, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar')
+2024-04-08 20:09:27,203 - INFO - Using device: cuda
+2024-04-08 20:09:29,807 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_24.pth.tar'
+2024-04-08 20:09:30,110 - INFO - multiple_GPUs is True
+2024-04-08 20:09:30,110 - INFO - training start!
+2024-04-08 20:09:30,111 - INFO - epoch 25 starts
+2024-04-08 23:33:06,358 - INFO - valid starts for epoch 25 starts
+2024-04-08 23:50:19,576 - INFO - Epoch 25:
+2024-04-08 23:50:19,576 - INFO -  Training Loss: 0.4188, Training Accuracy: 82.08%
+2024-04-08 23:50:19,576 - INFO -  Validation Loss: 0.4930, Validation Accuracy: 77.33%
+2024-04-08 23:50:19,576 - INFO - epoch 26 starts
+2024-04-09 03:14:08,034 - INFO - valid starts for epoch 26 starts
+2024-04-09 03:30:32,428 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-09 03:30:32,428 - INFO - Epoch 26:
+2024-04-09 03:30:32,428 - INFO -  Training Loss: 0.4180, Training Accuracy: 82.06%
+2024-04-09 03:30:32,428 - INFO -  Validation Loss: 0.5124, Validation Accuracy: 77.33%
+2024-04-09 03:30:32,428 - INFO - epoch 27 starts
+2024-04-09 06:51:10,545 - INFO - valid starts for epoch 27 starts
+2024-04-09 07:08:06,766 - INFO - Validation loss did not improve for 2/10 epochs.
+2024-04-09 07:08:08,765 - INFO - checking point saving at epoch 27
+2024-04-09 07:08:08,765 - INFO - Epoch 27:
+2024-04-09 07:08:08,765 - INFO -  Training Loss: 0.4111, Training Accuracy: 82.45%
+2024-04-09 07:08:08,765 - INFO -  Validation Loss: 0.4995, Validation Accuracy: 77.57%
+2024-04-09 07:08:08,765 - INFO - epoch 28 starts
+2024-04-09 10:25:14,860 - INFO - valid starts for epoch 28 starts
+2024-04-09 10:41:36,941 - INFO - Validation loss did not improve for 3/10 epochs.
+2024-04-09 10:41:36,941 - INFO - Epoch 28:
+2024-04-09 10:41:36,941 - INFO -  Training Loss: 0.4113, Training Accuracy: 82.40%
+2024-04-09 10:41:36,941 - INFO -  Validation Loss: 0.6847, Validation Accuracy: 71.83%
+2024-04-09 10:41:36,941 - INFO - epoch 29 starts
+2024-04-09 14:02:52,634 - INFO - valid starts for epoch 29 starts
+2024-04-09 14:20:35,297 - INFO - Validation loss did not improve for 4/10 epochs.
+2024-04-09 14:20:35,298 - INFO - Epoch 29:
+2024-04-09 14:20:35,298 - INFO -  Training Loss: 0.4082, Training Accuracy: 82.49%
+2024-04-09 14:20:35,298 - INFO -  Validation Loss: 0.5021, Validation Accuracy: 77.56%
+2024-04-09 14:20:35,905 - INFO - Plots saved: ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-03_18-23-20/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-09 18:50:18,807 - INFO - working with arguments Namespace(epochs=2, batch_size=5, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-09 18:50:20,440 - INFO - Using device: cuda
+2024-04-09 18:50:22,872 - INFO - multiple_GPUs is True
+2024-04-09 18:50:22,872 - INFO - training start!
+2024-04-09 18:50:22,874 - INFO - epoch 0 starts
+2024-04-09 18:50:46,416 - INFO - valid starts for epoch 0 starts
+2024-04-09 18:50:51,448 - INFO - checking point saving at epoch 0
+2024-04-09 18:50:51,448 - INFO - Epoch 0:
+2024-04-09 18:50:51,448 - INFO -  Training Loss: 0.0002, Training Accuracy: 40.00%
+2024-04-09 18:50:51,448 - INFO -  Validation Loss: 0.0011, Validation Accuracy: 75.00%
+2024-04-09 18:50:51,448 - INFO - epoch 1 starts
+2024-04-09 18:50:54,532 - INFO - valid starts for epoch 1 starts
+2024-04-09 18:50:56,669 - INFO - Validation loss did not improve for 1/10 epochs.
+2024-04-09 18:50:56,670 - INFO - Epoch 1:
+2024-04-09 18:50:56,670 - INFO -  Training Loss: 0.0002, Training Accuracy: 90.00%
+2024-04-09 18:50:56,670 - INFO -  Validation Loss: 0.0013, Validation Accuracy: 40.00%
+2024-04-09 18:50:56,670 - INFO - Epoch 1:
+2024-04-09 18:50:56,670 - INFO -  Training Loss: 0.0002, Training Accuracy: 90.00%
+2024-04-09 18:50:56,670 - INFO -  Validation Loss: 0.0013, Validation Accuracy: 40.00%
+2024-04-09 18:50:59,924 - INFO - Plots saved: ./2024-04-09_18-50-22/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-09_18-50-22/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-09 18:53:18,015 - INFO - working with arguments Namespace(epochs=4, batch_size=2, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-09 18:53:19,551 - INFO - Using device: cuda
+2024-04-09 18:53:22,102 - INFO - multiple_GPUs is True
+2024-04-09 18:53:22,102 - INFO - training start!
+2024-04-09 18:53:22,103 - INFO - epoch 0 starts
+2024-04-09 18:53:29,072 - INFO - valid starts for epoch 0 starts
+2024-04-09 18:53:34,353 - INFO - checking point saving at epoch 0
+2024-04-09 18:53:34,353 - INFO - Epoch 0:
+2024-04-09 18:53:34,353 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-09 18:53:34,354 - INFO -  Validation Loss: 0.0006, Validation Accuracy: 25.00%
+2024-04-09 18:53:34,354 - INFO - epoch 1 starts
+2024-04-09 18:53:36,563 - INFO - valid starts for epoch 1 starts
+2024-04-09 18:53:37,398 - INFO - Epoch 1:
+2024-04-09 18:53:37,398 - INFO -  Training Loss: 0.0001, Training Accuracy: 87.50%
+2024-04-09 18:53:37,398 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 50.00%
+2024-04-09 18:53:37,398 - INFO - epoch 2 starts
+2024-04-09 18:53:39,258 - INFO - valid starts for epoch 2 starts
+2024-04-09 18:53:40,138 - INFO - Epoch 2:
+2024-04-09 18:53:40,138 - INFO -  Training Loss: 0.0001, Training Accuracy: 50.00%
+2024-04-09 18:53:40,138 - INFO -  Validation Loss: 0.0005, Validation Accuracy: 50.00%
+2024-04-09 18:53:40,138 - INFO - epoch 3 starts
+2024-04-09 18:53:42,061 - INFO - valid starts for epoch 3 starts
+2024-04-09 18:53:49,171 - INFO - checking point saving at epoch 3
+2024-04-09 18:53:49,172 - INFO - Epoch 3:
+2024-04-09 18:53:49,172 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-09 18:53:49,172 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 87.50%
+2024-04-09 18:53:49,172 - INFO - Epoch 3:
+2024-04-09 18:53:49,172 - INFO -  Training Loss: 0.0001, Training Accuracy: 37.50%
+2024-04-09 18:53:49,172 - INFO -  Validation Loss: 0.0004, Validation Accuracy: 87.50%
+2024-04-09 18:53:56,053 - INFO - checking point saving at epoch 4
+2024-04-09 18:53:56,579 - INFO - Plots saved: ./2024-04-09_18-53-22/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-09_18-53-22/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-09 18:54:47,436 - INFO - working with arguments Namespace(epochs=4, batch_size=2, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-09_18-53-22/trained_model_block_(3, 3, 3)_checkpoint_epoch_4.pth.tar')
+2024-04-09 18:54:49,096 - INFO - Using device: cuda
+2024-04-09 18:54:51,598 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-09_18-53-22/trained_model_block_(3, 3, 3)_checkpoint_epoch_4.pth.tar'
+2024-04-09 18:54:51,924 - INFO - multiple_GPUs is True
+2024-04-09 18:54:51,924 - INFO - training start!
+2024-04-09 18:56:41,083 - INFO - working with arguments Namespace(epochs=6, batch_size=2, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-09_18-53-22/trained_model_block_(3, 3, 3)_checkpoint_epoch_4.pth.tar')
+2024-04-09 18:56:42,563 - INFO - Using device: cuda
+2024-04-09 18:56:44,843 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-09_18-53-22/trained_model_block_(3, 3, 3)_checkpoint_epoch_4.pth.tar'
+2024-04-09 18:56:45,170 - INFO - multiple_GPUs is True
+2024-04-09 18:56:45,171 - INFO - training start!
+2024-04-09 18:56:45,172 - INFO - epoch 5 starts
+2024-04-09 18:56:52,383 - INFO - valid starts for epoch 5 starts
+2024-04-09 18:56:53,217 - INFO - Epoch 5:
+2024-04-09 18:56:53,217 - INFO -  Training Loss: 0.0001, Training Accuracy: 87.50%
+2024-04-09 18:56:53,217 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 25.00%
+2024-04-09 18:56:53,218 - INFO - Final Epoch 5:
+2024-04-09 18:56:53,218 - INFO -  Training Loss: 0.0001, Training Accuracy: 87.50%
+2024-04-09 18:56:53,218 - INFO -  Validation Loss: 0.0007, Validation Accuracy: 25.00%
+2024-04-09 18:57:01,335 - INFO - checking point saving at epoch 6
+2024-04-09 18:57:01,727 - INFO - Plots saved: ./2024-04-09_18-53-22/block_size_(3, 3, 3)_training_validation_loss.png and ./2024-04-09_18-53-22/block_size_(3, 3, 3)_training_validation_accuracy.png
+2024-04-09 18:59:10,632 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_27.pth.tar')
+2024-04-09 18:59:12,118 - INFO - Using device: cuda
+2024-04-09 18:59:14,607 - INFO - => loading checkpoint '/home/ubuntu/jupyter-sandy/3D_ResNet/2024-04-03_18-23-20/checkpoint_epoch_27.pth.tar'
+2024-04-09 18:59:15,078 - INFO - multiple_GPUs is True
+2024-04-09 18:59:15,078 - INFO - training start!
+2024-04-09 18:59:15,079 - INFO - epoch 28 starts
+2024-04-10 00:22:39,772 - INFO - valid starts for epoch 28 starts
+2024-04-10 00:55:42,318 - INFO - Epoch 28:
+2024-04-10 00:55:42,318 - INFO -  Training Loss: 0.3995, Training Accuracy: 82.95%
+2024-04-10 00:55:42,318 - INFO -  Validation Loss: 0.5141, Validation Accuracy: 77.38%
+2024-04-10 00:55:42,318 - INFO - epoch 29 starts
+2024-04-10 05:30:14,896 - INFO - valid starts for epoch 29 starts
+2024-04-10 06:01:25,094 - INFO - Epoch 29:
+2024-04-10 06:01:25,094 - INFO -  Training Loss: 0.3987, Training Accuracy: 82.94%
+2024-04-10 06:01:25,094 - INFO -  Validation Loss: 0.5129, Validation Accuracy: 77.15%
+2024-04-10 06:01:25,095 - INFO - epoch 30 starts
+2024-04-10 15:32:32,611 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 15:39:36,423 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(3, 3, 3), start_epoch=0, resume='')
+2024-04-10 15:41:42,832 - INFO - working with arguments Namespace(epochs=100, batch_size=25, learning_rate=0.0001, patience=10, test=False, block_size=(16, 16, 16), start_epoch=0, resume='')
