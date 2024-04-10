@@ -477,8 +477,10 @@ def save_plots(train_losses, train_accuracies, valid_losses, valid_accuracies, n
     plt.close()
     logging.info(f'Plots saved: {loss_plot_filename} and {accuracy_plot_filename}')
 def main(args, final_output_dir):
-    mean = 3.272275845858922
-    std = 3.7406388529889547
+    # mean = 3.272275845858922
+    # std = 3.7406388529889547
+    mean = 2.091604641637695
+    std = 1.8895080134984115
     transform = Compose([
         Lambda(lambda x: scale_up_block(x, new_resol=[112, 112, 112])),
         Lambda(lambda x: (x - mean) / std)
@@ -486,12 +488,12 @@ def main(args, final_output_dir):
     # read data
     train_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
                                 # root_dir='./Data/Processed_Block_block_size3',
-                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size16',
                                 split_type='train',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     valid_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
                                 # root_dir='./Data/Processed_Block_block_size3',
-                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size16',
                                 split_type='val',
                                 neg_sampling_ratio=1.05, transform=transform)  # Adjust the ratio as needed
     
@@ -613,7 +615,7 @@ def main(args, final_output_dir):
 
     else:
         test_dataset = PETCTDataset(csv_file='./Data/Data_Split/data_with_splits.csv',
-                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size3',
+                                root_dir= '/gpfs/fs0/data/stanford_data/petct_patches/Processed_Block_block_size16',
                                 split_type='test',
                                 neg_sampling_ratio=1, transform=transform, load_all_test_samples=args.test)
         test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
@@ -693,13 +695,14 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', type=int, default= 8, help='Batch size for training and evaluation.')
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate for the optimizer.')
     parser.add_argument("--patience", type = int, default= 10, help = "patience for early stop")
-    parser.add_argument("--test",type = bool, default = True, help= "if True, we load a model and test on full datasets")
-    parser.add_argument("--block_size", type = tuple,default = (3,3,3), help = 'The block size' )
+    parser.add_argument("--test",type = bool, default = False, help= "if True, we load a model and test on full datasets")
+    parser.add_argument("--block_size", type = tuple,default = (16,16,16), help = 'The block size' )
     parser.add_argument('--start_epoch', type=int, default=0, help='Epoch to start training from, useful for resuming training')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
     args = parser.parse_args()
     logging.info(f'working with arguments {args}')
-    final_output_dir_size_3 = '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results'
+    # final_output_dir_size_3 = '/gpfs/fs0/data/stanford_data/petct_patches/block_size3_results'
+    final_output_dir_size_16 = '/gpfs/fs0/data/stanford_data/petct_patches/block_size16_results'
     
-    main(args, final_output_dir_size_3)
+    main(args, final_output_dir_size_16)
